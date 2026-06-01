@@ -1,0 +1,15 @@
+.antigravitycli/
+backup_visual/
+backup_visual_v2/
+cleanup.py
+extract_essential.js
+format_html.js
+teste_catalogo.html
+lovable_original.html
+lovable_formatted.html
+estrutura.html
+header.html
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db

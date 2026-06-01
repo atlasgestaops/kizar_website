@@ -1,0 +1,260 @@
+/* === css/components/produtos.css === */
+
+.catalog-section {
+  padding: var(--space-xl) 0;
+  background-color: var(--color-snow); /* Cinza Neve de fundo */
+  position: relative;
+  overflow: hidden;
+}
+
+/* Efeito de iluminação de fundo suave Azul Gelo */
+.catalog-section::before {
+  content: '';
+  position: absolute;
+  top: -10%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 60%;
+  background: radial-gradient(circle, rgba(0, 123, 215, 0.05) 0%, rgba(245, 245, 247, 0) 70%);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.catalog-section__container {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+  position: relative;
+  z-index: 2;
+}
+
+/* Título da Seção */
+.catalog-section__header {
+  text-align: center;
+  margin-bottom: var(--space-xl);
+}
+
+.catalog-section__subtitle {
+  font-family: var(--font-body);
+  color: var(--color-primary); /* Azul Kizar */
+  font-size: var(--text-small);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  display: block;
+  margin-bottom: var(--space-xs);
+}
+
+.catalog-section__title {
+  color: var(--color-dark); /* Escuro */
+  font-size: var(--text-section);
+  font-family: var(--font-display);
+  font-weight: 800;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+}
+
+.catalog-section__title span {
+  color: #0135FB;
+}
+
+/* Filtros de Categoria */
+.catalog-section__filters {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: var(--space-xs);
+  margin-bottom: var(--space-xl);
+}
+
+.catalog-section__filter-btn {
+  font-family: var(--font-body);
+  font-size: var(--text-caption);
+  font-weight: 600;
+  color: var(--color-dark);
+  padding: 10px 24px;
+  border-radius: var(--radius-pill);
+  border: 1px solid var(--color-gray-light);
+  background: var(--color-white);
+  transition: var(--transition-fast);
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.catalog-section__filter-btn:hover {
+  border-color: #0135FB !important;
+  background-color: rgba(1, 53, 251, 0.08) !important;
+  box-shadow: 0 0 24px rgba(1, 53, 251, 0.25) !important;
+  transform: translateY(-2px);
+}
+
+.catalog-section__filter-btn--active {
+  background-color: #0135FB !important;
+  color: var(--color-white) !important;
+  border-color: #0135FB !important;
+  font-weight: 700;
+  box-shadow: 0 0 24px rgba(1, 53, 251, 0.25) !important;
+}
+
+/* Grid de Produtos */
+.catalog-section__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--grid-gap-lg);
+}
+
+@media (max-width: 991px) {
+  .catalog-section__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--grid-gap);
+  }
+}
+
+@media (max-width: 575px) {
+  .catalog-section__grid {
+    grid-template-columns: 1fr;
+    gap: var(--space-xl);
+  }
+}
+
+/* Cards de Produto */
+.product-card {
+  display: flex;
+  flex-direction: column;
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  padding: var(--space-sm);
+  border: 1px solid var(--color-gray-light);
+  box-shadow: var(--shadow-md);
+  transition: var(--transition-base);
+}
+
+/* Box da Imagem */
+.product-card__image-box {
+  position: relative;
+  aspect-ratio: 1.15;
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: var(--space-sm);
+  transition: var(--transition-base);
+  border: none;
+}
+
+/* Fundos temáticos baseados nos Tints Complementares oficiais */
+.product-card__image-box--gold {
+  background: radial-gradient(circle at center, var(--color-cream-gold) 0%, rgba(255, 245, 224, 0.2) 75%);
+}
+
+.product-card__image-box--red {
+  background: radial-gradient(circle at center, var(--color-accent-light) 0%, rgba(255, 240, 235, 0.2) 75%);
+}
+
+.product-card__image-box--purple {
+  background: radial-gradient(circle at center, var(--color-soft-lavender) 0%, rgba(240, 229, 255, 0.2) 75%);
+}
+
+.product-card__image-box--brown {
+  background: radial-gradient(circle at center, var(--color-tropical-peach) 0%, rgba(255, 240, 224, 0.2) 75%);
+}
+
+.product-card__image {
+  max-width: 65%;
+  height: auto;
+  object-fit: contain;
+  transition: var(--transition-slow);
+  filter: drop-shadow(0 8px 16px rgba(26, 26, 46, 0.12));
+  will-change: transform;
+}
+
+/* Badge Superior Esquerdo em Vermelho Kizar (CTA/Lucro) */
+.product-card__badge {
+  position: absolute;
+  top: var(--space-sm);
+  left: var(--space-sm);
+  background-color: var(--color-accent); /* Vermelho Kizar */
+  color: var(--color-white);
+  font-family: var(--font-body);
+  font-size: var(--text-small);
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: var(--radius-pill);
+  letter-spacing: 0.03em;
+  box-shadow: var(--shadow-glow-red);
+  z-index: 3;
+}
+
+/* Hover no Card */
+.product-card:hover {
+  transform: translateY(-6px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--color-primary-medium);
+}
+
+.product-card:hover .product-card__image-box {
+  background-size: 110% 110%;
+}
+
+.product-card:hover .product-card__image {
+  transform: scale(1.08) rotate(2deg);
+  filter: drop-shadow(0 12px 24px rgba(26, 26, 46, 0.2));
+}
+
+/* Informações do Produto */
+.product-card__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--space-2xs);
+}
+
+.product-card__title {
+  font-family: var(--font-display);
+  font-size: var(--text-subtitle);
+  color: var(--color-dark);
+  font-weight: 600;
+  line-height: 1.35;
+  margin-bottom: var(--space-md);
+  min-height: 3.4rem; /* Alinhamento estrito */
+}
+
+/* Botão do Card em Vermelho Kizar (CTA Principal do Site) */
+.product-card__btn {
+  font-family: var(--font-body);
+  font-size: var(--text-caption);
+  font-weight: 700;
+  color: var(--color-accent); /* Vermelho Kizar */
+  padding: 10px 20px;
+  border-radius: var(--radius-pill);
+  border: 2px solid var(--color-accent);
+  background: transparent;
+  transition: var(--transition-fast);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+}
+
+.product-card__btn:hover {
+  background-color: var(--color-accent);
+  color: var(--color-white);
+  border-color: var(--color-accent);
+  box-shadow: var(--shadow-glow-red);
+  transform: translateY(-1px);
+}
+
+.product-card__btn--active {
+  background-color: var(--color-accent);
+  color: var(--color-white);
+  border-color: var(--color-accent);
+}
+
+.product-card__btn--active:hover {
+  background-color: var(--color-accent-dark);
+  border-color: var(--color-accent-dark);
+  color: var(--color-white);
+}

@@ -1,0 +1,1217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="preload" as="image" href="https://kizar-king-of-flavor.lovable.app/assets/kizar-logo-oficial-DCElqijF.png"/>
+  <link rel="preload" as="image" href="https://kizar-king-of-flavor.lovable.app/assets/kizar-vitrine-veJUhRR7.png"/>
+  <title>Kizar — O Rei do Sabor | Seja Revendedor de Sorvete e Açaí</title>
+  <meta name="description" content="Fábrica Kizar: sorvetes, picolés, potes e açaí com preço de fábrica, alta margem e frete grátis. Lucre revendendo a marca mais saborosa do Brasil."/>
+  <meta name="author" content="Kizar Produtos Alimentícios"/>
+  <meta property="og:title" content="Kizar — O Rei do Sabor | Seja Revendedor de Sorvete e Açaí"/>
+  <meta property="og:description" content="Fábrica Kizar: sorvetes, picolés, potes e açaí com preço de fábrica, alta margem e frete grátis. Lucre revendendo a marca mais saborosa do Brasil."/>
+  <meta property="og:type" content="website"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <meta name="twitter:title" content="Kizar — O Rei do Sabor | Seja Revendedor de Sorvete e Açaí"/>
+  <meta name="twitter:description" content="Fábrica Kizar: sorvetes, picolés, potes e açaí com preço de fábrica, alta margem e frete grátis. Lucre revendendo a marca mais saborosa do Brasil."/>
+  <meta property="og:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6a68d12d-101b-40cc-99cc-71a31b5450fd/id-preview-f9a3de9b--b2b77e3c-f878-418f-8774-c6a5f19fbc64.lovable.app-1779373408763.png"/>
+  <meta name="twitter:image" content="https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/6a68d12d-101b-40cc-99cc-71a31b5450fd/id-preview-f9a3de9b--b2b77e3c-f878-418f-8774-c6a5f19fbc64.lovable.app-1779373408763.png"/>
+  
+  <!-- Fontes do Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="anonymous"/>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Anton&family=Montserrat:wght@400;500;600;700;800;900&family=Poppins:wght@500;600;700;800;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Estilos Globais e de Referência -->
+  <link rel="stylesheet" href="https://kizar-king-of-flavor.lovable.app/assets/styles-BZA1m_Rb.css"/>
+  <link rel="stylesheet" href="css/constitution.css">
+  <link rel="stylesheet" href="css/components/produtos.css">
+  <style>
+    @media (min-width: 1024px) {
+      .container {
+        max-width: 1024px !important;
+      }
+    }
+  </style>
+  
+  <!-- Tailwind CDN para processamento das classes dinâmicas do Cabeçalho e Hero Stitch -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      corePlugins: {
+        preflight: false,
+      },
+      theme: {
+        extend: {
+          colors: {
+            'kizar-blue': '#007BD7',
+            'kizar-blue-deep': '#005A9E',
+            'kizar-red': '#FB3F01',
+            'kizar-red-deep': '#E63600',
+            'kizar-cream': '#F5F5F7',
+            'kizar-orange-light': '#FFF0EB',
+            'kizar-yellow': '#FFC700',
+          },
+          fontFamily: {
+            display: ['Outfit', 'sans-serif'],
+            sans: ['Plus Jakarta Sans', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+  
+  <style>
+  	@font-face {
+  		font-family: 'CameraPlainVariable';
+  		src: url('https://cdn.gpteng.co/mcp-widgets/v1/fonts/CameraPlainVariable.woff2') format('woff2');
+  		font-weight: 100 900;
+  		font-style: normal;
+  		font-display: swap;
+  	}
+
+    /* Efeito de pulso suave no botão de CTA */
+    @keyframes pulse-btn {
+      0%, 100% {
+        transform: scale(1);
+        box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+      }
+      50% {
+        transform: scale(1.03);
+        box-shadow: 0 8px 30px rgba(37, 211, 102, 0.6);
+      }
+    }
+    
+    .pulse-cta {
+      animation: pulse-btn 3s infinite ease-in-out;
+    }
+
+    /* Transição suave de fade-in para os elementos na carga da página */
+    .fade-in-up {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+    }
+
+    .fade-in-up-delayed-1 {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.2s forwards;
+    }
+
+    .fade-in-up-delayed-2 {
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 0.8s cubic-bezier(0.16, 1, 0.3, 1) 0.4s forwards;
+    }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="min-h-screen bg-background">
+    <main>
+      
+      <!-- === NOVO HEADER E HERO B2B (Primeira Dobra Stitch) === -->
+      <!-- === SEÇÃO DO HERO & HEADER === -->
+      <section class="relative min-h-[650px] md:min-h-[750px] lg:min-h-[768px] flex flex-col justify-between bg-no-repeat bg-cover bg-center md:bg-[position:center_right] overflow-hidden" 
+               style="background-image: url('assets/kizar-premium-hero-banner.png');">
+
+        <!-- === CABEÇALHO (Header) === -->
+        <header class="relative w-full z-30 transition-all duration-300">
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex items-center justify-between">
+            
+            <!-- Logo -->
+            <a href="#" class="flex items-center">
+              <img src="assets/logo_oficial.png" 
+                   alt="Sorveteria Kizar" 
+                   class="h-12 md:h-16 w-auto object-contain drop-shadow-lg transition-transform hover:scale-105 duration-300"/>
+            </a>
+
+            <!-- Menu de Navegação (Desktop) -->
+            <nav class="hidden lg:flex items-center space-x-8">
+              <a href="#sobre" class="text-white hover:text-kizar-yellow font-medium transition-colors duration-200 drop-shadow-md">Quem Somos</a>
+              <a href="#produtos" class="text-white hover:text-kizar-yellow font-medium transition-colors duration-200 drop-shadow-md">Produtos</a>
+              <a href="#catalogo-vitrine" class="text-white hover:text-kizar-yellow font-medium transition-colors duration-200 drop-shadow-md">Sabores</a>
+              <a href="#seja-revendedor" class="text-white hover:text-kizar-yellow font-medium transition-colors duration-200 drop-shadow-md">Seja Revendedor</a>
+              <a href="#revendedor" class="text-white hover:text-kizar-yellow font-medium transition-colors duration-200 drop-shadow-md">Cadastro</a>
+              <a href="#revendedor" class="text-white hover:text-kizar-yellow font-medium transition-colors duration-200 drop-shadow-md">Contato</a>
+            </nav>
+
+            <!-- Ação CTA (Desktop) -->
+            <div class="hidden lg:block">
+              <a href="https://wa.me/5511981784142?text=Ol%C3%A1!%20Quero%20ser%20um%20revendedor%20Kizar." 
+                 target="_blank" 
+                 rel="noopener noreferrer" 
+                 class="inline-flex items-center justify-center bg-[#FB3F01] hover:bg-[#E63600] text-white font-extrabold px-6 py-3 rounded-full shadow-lg hover:shadow-xl hover:scale-105 transition-all duration-300">
+                Quero Revender
+              </a>
+            </div>
+
+            <!-- Botão Menu Mobile (Hamburguer) -->
+            <div class="lg:hidden">
+              <button id="mobile-menu-btn" 
+                      type="button" 
+                      class="text-white p-2 rounded-md focus:outline-none" 
+                      aria-label="Abrir Menu">
+                <svg class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+              </button>
+            </div>
+
+          </div>
+        </header>
+
+        <!-- Menu Mobile Lateral/Suspenso -->
+        <div id="mobile-menu" class="fixed inset-0 bg-kizar-blue-deep/95 z-50 transform translate-x-full transition-transform duration-300 ease-in-out lg:hidden flex flex-col justify-between">
+          <div class="p-6">
+            <div class="flex items-center justify-between mb-8">
+              <img src="assets/logo_oficial.png" alt="Sorveteria Kizar" class="h-10 w-auto"/>
+              <button id="close-menu-btn" type="button" class="text-white p-2 focus:outline-none">
+                <svg class="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+              </button>
+            </div>
+            <nav class="flex flex-col space-y-6 text-xl">
+              <a href="#sobre" class="mobile-link text-white hover:text-kizar-yellow font-semibold">Quem Somos</a>
+              <a href="#produtos" class="mobile-link text-white hover:text-kizar-yellow font-semibold">Produtos</a>
+              <a href="#catalogo-vitrine" class="mobile-link text-white hover:text-kizar-yellow font-semibold">Sabores</a>
+              <a href="#seja-revendedor" class="mobile-link text-white hover:text-kizar-yellow font-semibold">Seja Revendedor</a>
+              <a href="#revendedor" class="mobile-link text-white hover:text-kizar-yellow font-semibold">Cadastro</a>
+              <a href="#revendedor" class="mobile-link text-white hover:text-kizar-yellow font-semibold">Contato</a>
+            </nav>
+          </div>
+          <div class="p-6 border-t border-white/10">
+            <a href="https://wa.me/5511981784142?text=Ol%C3%A1!%20Quero%20ser%20um%20revendedor%20Kizar." 
+               target="_blank" 
+               rel="noopener noreferrer" 
+               class="w-full inline-flex items-center justify-center bg-[#FB3F01] hover:bg-[#E63600] text-white font-extrabold py-4 rounded-full text-lg shadow-lg">
+              Quero Revender
+            </a>
+          </div>
+        </div>
+
+        <!-- === DOBRA PRINCIPAL DO HERO === -->
+        <div class="relative w-full z-10 flex-grow flex items-center">
+          <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full py-12 md:py-20 lg:py-24">
+            <div class="grid lg:grid-cols-2 gap-8 items-center">
+              
+              <!-- Coluna Esquerda: Textos Persuasivos B2B -->
+              <div class="text-left max-w-xl md:max-w-2xl">
+                
+                <h1 class="fade-in-up font-display text-4xl sm:text-5xl md:text-6xl font-black text-white leading-tight tracking-tight drop-shadow-lg">
+                  SEJA UM <br class="hidden sm:inline" />
+                  REVENDEDOR KIZAR!
+                </h1>
+                
+                <p class="fade-in-up-delayed-1 mt-6 text-lg sm:text-xl md:text-2xl text-white/90 font-medium leading-relaxed drop-shadow-md">
+                  O sabor que fideliza e o lucro que você precisa.
+                </p>
+                
+                <div class="fade-in-up-delayed-2 mt-8 md:mt-10">
+                  <a href="https://wa.me/5511981784142?text=Ol%C3%A1!%20Quero%20DESBLOQUEAR%20a%20tabela%20de%20pre%C3%A7os%20oficial%20Kizar%20e%20me%20tornar%20revendedor." 
+                     target="_blank" 
+                     rel="noopener noreferrer" 
+                     class="pulse-cta inline-flex items-center justify-center bg-[#00D74A] hover:bg-[#00b83f] text-white font-black px-8 py-4 sm:px-10 sm:py-5 rounded-full text-lg sm:text-xl shadow-[0_4px_25px_rgba(0,215,74,0.25)] hover:shadow-[0_8px_30px_rgba(0,215,74,0.45)] transition-all duration-300">
+                    QUERO SER REVENDEDOR AGORA
+                  </a>
+                </div>
+
+              </div>
+
+              <!-- Coluna Direita: Vazia no Desktop para deixar a composição visual do background (gelatos) brilhar -->
+              <div class="hidden lg:block h-full min-h-[400px]"></div>
+
+            </div>
+          </div>
+        </div>
+
+        <!-- Espaço vazio na base para compensar o splash de leite que divide as seções -->
+        <div class="w-full h-12 md:h-20 lg:h-24"></div>
+
+      </section>
+      
+      <!-- === SEÇÃO: Nossa História === -->
+      <!-- === INÍCIO: Nossa História === -->
+      <section id="sobre" class="py-16 md:py-24 bg-[#F5F5F7] relative overflow-hidden">
+      <div class="container mx-auto px-4 grid lg:grid-cols-2 gap-12 items-center relative">
+      <div class="relative order-2 lg:order-1">
+      <div class="absolute -inset-6 bg-[#007BD7]/10 rounded-[3rem] opacity-95" style="transform: rotate(-1.5deg) !important;">
+      </div>
+      <img src="assets/nossa_historia.jpg" alt="História da Sorveteria Kizar" loading="lazy" width="1080" height="1920" class="relative rounded-3xl shadow-2xl w-full max-w-md mx-auto"/>
+      </div>
+      <div class="order-1 lg:order-2">
+      <span class="inline-flex items-center gap-2 bg-[#007BD7] text-white font-black px-4 py-2 rounded-full text-xs uppercase tracking-widest mb-5">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-crown size-4" aria-hidden="true">
+      <path d="M11.562 3.266a.5.5 0 0 1 .876 0L15.39 8.87a1 1 0 0 0 1.516.294L21.183 5.5a.5.5 0 0 1 .798.519l-2.834 10.246a1 1 0 0 1-.956.734H5.81a1 1 0 0 1-.957-.734L2.02 6.02a.5.5 0 0 1 .798-.519l4.276 3.664a1 1 0 0 0 1.516-.294z">
+      </path>
+      <path d="M5 21h14">
+      </path>
+      </svg> Nossa História</span>
+      <h2 class="font-display text-[#1A1A2E] mb-6 leading-tight text-[40px]">+20 ANOS DE<br/>
+      <span class="text-[#FB3F01]">PAIXÃO E TRADIÇÃO</span>
+      </h2>
+      <div class="space-y-4 text-[#1A1A2E] text-[16px] leading-[1.6] tracking-[0.2px] text-[#1A1A2E]">
+      <p>No alvorecer dos anos 2000, dois irmãos, movidos por uma coragem inabalável e uma fé inquebrantável, decidiram trilhar um caminho extraordinário. O que começou como um sonho audacioso transformou-se em uma jornada de mais de<strong class="text-[#FB3F01]"> 20 anos de excelência</strong> no mercado de sorvetes.</p>
+      <p>Cada desafio e cada recomeço forjaram a <strong>Kizar</strong> como sinônimo de qualidade inegociável. Nossa trajetória é pautada pelo respeito e pelo compromisso de entregar não apenas um product, mas uma <em>experiência completa de alegria e confiança</em>. Essa dedicação se reflete na cremosidade inigualável que você sente em cada escolha.</p>
+      <p>Nada disso seria possível sem o apoio incondicional de um pai, que foi a rocha e a inspiração para persistirmos mesmo nos momentos mais desafiadores. Hoje, a Kizar é uma marca consolidada, fruto de <strong>garra, fé e a determinação de sempre inovar</strong>.</p>
+      <p class="font-display text-[#1A1A2E] pt-2 text-[24px] leading-[1.4]">&quot;Kizar: mais de 20 anos de tradição, sabor e a paixão que conquista você.&quot;</p>
+      </div>
+      <div class="grid grid-cols-3 gap-3 mt-8">
+      <div class="bg-white rounded-2xl p-4 text-center shadow-card-kizar border-b-4 border-[#FB3F01]">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-crown size-6 mx-auto mb-1 text-[#007BD7]" aria-hidden="true">
+      <path d="M11.562 3.266a.5.5 0 0 1 .876 0L15.39 8.87a1 1 0 0 0 1.516.294L21.183 5.5a.5.5 0 0 1 .798.519l-2.834 10.246a1 1 0 0 1-.956.734H5.81a1 1 0 0 1-.957-.734L2.02 6.02a.5.5 0 0 1 .798-.519l4.276 3.664a1 1 0 0 0 1.516-.294z">
+      </path>
+      <path d="M5 21h14">
+      </path>
+      </svg>
+      <div class="font-display text-2xl md:text-3xl text-[#007BD7]">+20</div>
+      <div class="text-[10px] md:text-xs uppercase tracking-wide text-muted-foreground">Anos no mercado</div>
+      </div>
+      <div class="bg-white rounded-2xl p-4 text-center shadow-card-kizar border-b-4 border-[#FB3F01]">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-sparkles size-6 mx-auto mb-1 text-[#007BD7]" aria-hidden="true">
+      <path d="M11.017 2.814a1 1 0 0 1 1.966 0l1.051 5.558a2 2 0 0 0 1.594 1.594l5.558 1.051a1 1 0 0 1 0 1.966l-5.558 1.051a2 2 0 0 0-1.594 1.594l-1.051 5.558a1 1 0 0 1-1.966 0l-1.051-5.558a2 2 0 0 0-1.594-1.594l-5.558-1.051a1 1 0 0 1 0-1.966l5.558-1.051a2 2 0 0 0 1.594-1.594z">
+      </path>
+      <path d="M20 2v4">
+      </path>
+      <path d="M22 4h-4">
+      </path>
+      <circle cx="4" cy="20" r="2">
+      </circle>
+      </svg>
+      <div class="font-display text-2xl md:text-3xl text-[#007BD7]">+40</div>
+      <div class="text-[10px] md:text-xs uppercase tracking-wide text-muted-foreground">Sabores únicos</div>
+      </div>
+      <div class="bg-white rounded-2xl p-4 text-center shadow-card-kizar border-b-4 border-[#FB3F01]">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-heart size-6 mx-auto mb-1 text-[#007BD7]" aria-hidden="true">
+      <path d="M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5">
+      </path>
+      </svg>
+      <div class="font-display text-2xl md:text-3xl text-[#007BD7]">100%</div>
+      <div class="text-[10px] md:text-xs uppercase tracking-wide text-muted-foreground">Feito com paixão</div>
+      </div>
+      </div>
+      </div>
+      </div>
+      </section>
+      <!-- === FIM: Nossa História === -->
+      
+      <!-- === SEÇÃO: Vitrine de Produtos (Antiga Lovable) === -->
+      <!-- === INÍCIO: Vitrine de Produtos === -->
+      <section id="produtos" class="relative py-16 md:py-24 bg-white">
+      <div class="container mx-auto px-4">
+      <div class="text-center max-w-3xl mx-auto mb-14">
+      <span class="inline-flex items-center gap-2 bg-[#E8F4FD] text-[#007BD7] font-bold px-4 py-1.5 rounded-full text-sm uppercase tracking-wider mb-4">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-flame size-4" aria-hidden="true">
+      <path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4">
+      </path>
+      </svg> Linha completa de fábrica</span>
+      <h2 class="font-display text-[#1A1A2E] mb-4 text-[44px]">VITRINE DE <span class="text-[#FB3F01]">PRODUTOS</span>
+      </h2>
+      <p class="text-lg text-muted-foreground">Qualidade premium para o seu balcão. Coloque na vitrine, observe o caixa encher.</p>
+      </div>
+      <div class="grid lg:grid-cols-2 gap-10 items-center mb-16">
+      <div class="relative group">
+      <div class="absolute -inset-4 bg-[#007BD7]/15 rounded-3xl rotate-2 group-hover:rotate-1 transition-transform">
+      </div>
+      <img src="assets/sorvete1.jpg" alt="Linha Trufadinho Kizar 350ml" loading="lazy" width="1200" height="1200" class="relative rounded-3xl shadow-2xl w-full"/>
+      </div>
+      <div>
+      <span class="inline-block bg-[#D7B000] text-white font-black px-3 py-1 rounded-full text-xs uppercase tracking-widest mb-3">⭐ Destaque</span>
+      <h3 class="font-display text-[#1A1A2E] mb-3 text-[38px]">LINHA TRUFADINHO <span class="text-[#FB3F01]">350ml</span>
+      </h3>
+      <p class="text-lg text-[#6B7280] mb-5">Sabores especiais que viciam: <strong>Chocolate, Morango, Maracujá e Ninho Trufado</strong>. Pote individual perfeito para venda no balcão, com margem altíssima e giro acelerado.</p>
+      <div class="bg-[#FFF0EB] rounded-2xl p-5 mb-5 border-l-4 border-[#FB3F01]">
+      <div class="text-sm text-muted-foreground mb-1">A partir de</div>
+      <div class="font-display text-4xl text-[#FB3F01]">R$ 3,80</div>
+      <div class="text-xs text-muted-foreground">por unidade — pedido no atacado</div>
+      </div>
+      <a href="https://wa.me/5511981784142?text=Ol%C3%A1!%20Quero%20o%20cat%C3%A1logo%20completo%20Kizar." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-[#FB3F01] hover:bg-[#E63600] text-white font-black px-6 py-3 rounded-full shadow-[0_4px_15px_rgba(251,63,1,0.25)] hover:shadow-[0_6px_20px_rgba(251,63,1,0.4)] hover:scale-105 transition-transform duration-350">QUERO ESSE PRODUTO</a>
+      </div>
+      </div>
+      <div class="grid md:grid-cols-2 gap-6 mb-12">
+      <article class="group relative rounded-3xl overflow-hidden shadow-card-kizar bg-[#6B35D7] text-white hover:-translate-y-2 transition-transform" style="padding: 50px !important;">
+      <div class="flex items-start gap-5">
+      <img src="assets/acai.jpg" alt="Açaí Pop Frozen 10L" loading="lazy" width="400" height="400" class="size-28 md:size-36 rounded-2xl object-cover shadow-2xl shrink-0"/>
+      <div>
+      <span class="inline-block bg-[#D7B000] text-white font-black px-2.5 py-0.5 rounded-full text-[10px] uppercase tracking-wider mb-2">Solução B2B</span>
+      <h3 class="font-display text-2xl md:text-3xl mb-2">AÇAÍ POP FROZEN 10L</h3>
+      <p class="text-sm text-white/90 mb-4">O balde perfeito para sorveterias, açaiterias e lanchonetes. Cremosidade premium, rendimento alto e o sabor que fideliza cliente.</p>
+      <a href="https://wa.me/5511981784142?text=Ol%C3%A1!%20Quero%20o%20cat%C3%A1logo%20completo%20Kizar." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-white text-[#6B35D7] font-black px-4 py-2 rounded-full text-sm hover:bg-[#FFF5E0] transition-colors">Pedir agora</a>
+      </div>
+      </div>
+      </article>
+      <article class="group relative rounded-3xl overflow-hidden shadow-card-kizar text-white hover:-translate-y-2 transition-transform bg-[#FB014D]" style="padding: 50px">
+      <div class="flex items-start gap-5">
+      <img src="assets/mix_produtos.jpg" alt="Mix Completo de Produtos Kizar" loading="lazy" width="400" height="400" class="size-28 md:size-36 rounded-2xl object-cover shadow-2xl shrink-0"/>
+      <div>
+      <span class="inline-block bg-[#D7B000] text-white font-black px-2.5 py-0.5 rounded-full text-[10px] uppercase tracking-wider mb-2">Variedade</span>
+      <h3 class="font-display text-2xl md:text-3xl mb-2">MIX COMPLETO</h3>
+      <p class="text-sm text-white/90 mb-4">Mais de <strong>40 sabores</strong> entre picolés tradicionais, duo/trio, Skimo, Unicórnio e sorvetes de massa trufados. Sua vitrine sempre cheia.</p>
+      <a href="https://wa.me/5511981784142?text=Ol%C3%A1!%20Quero%20o%20cat%C3%A1logo%20completo%20Kizar." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-white font-black px-4 py-2 rounded-full text-sm hover:bg-[#FFF5E0] transition-colors text-[#FB014D]">Ver catálogo</a>
+      </div>
+      </div>
+      </article>
+      </div>
+      </div>
+      </section>
+      <!-- === FIM: Vitrine de Produtos === -->
+
+      <!-- === NOVO CATÁLOGO DE PRODUTOS INTERATIVO (Insere teste_catalogo aqui) === -->
+      <!-- === INÍCIO: Novo Catálogo Figma B2B === -->
+      <section class="catalog-section bg-hero-kizar" id="catalogo-vitrine" style="background: var(--gradient-hero) !important;">
+        <div class="catalog-section__container">
+          
+          <div class="catalog-section__header">
+            <span class="catalog-section__subtitle text-[#FFF5E0]">Explore Nosso Mix</span>
+            <h2 class="catalog-section__title text-[#ffffff]">NOSSOS <span class="text-[#0135FB]">MELHORES PRODUTOS</span></h2>
+          </div>
+
+          <!-- Filtros de Categoria -->
+          <div class="catalog-section__filters">
+            <button class="catalog-section__filter-btn catalog-section__filter-btn--active" data-filter="all">Todos</button>
+            <button class="catalog-section__filter-btn" data-filter="trufadinho">Potes Trufadinhos 350ml</button>
+            <button class="catalog-section__filter-btn" data-filter="massa">Sorvetes de Massa 6L/10L</button>
+            <button class="catalog-section__filter-btn" data-filter="acai">Açaí Pop Frozen</button>
+            <button class="catalog-section__filter-btn" data-filter="picoles">Picolés Premium</button>
+          </div>
+
+          <!-- Grid de Produtos Premium (Fundo translúcido, cantos redondos) -->
+          <div class="catalog-section__grid">
+            
+            <!-- Produto 1: Trufadinho Ninho -->
+            <article class="product-card" data-category="trufadinho">
+              <div class="product-card__image-box product-card__image-box--gold">
+                <span class="product-card__badge">+180% Lucro</span>
+                <img src="assets/acai.jpg" alt="Trufadinho Ninho" class="product-card__image">
+              </div>
+              <div class="product-card__info">
+                <h3 class="product-card__title">Pote Trufadinho Ninho com Avelã (350ml)</h3>
+                <button class="product-card__btn product-card__btn--active">Quero Revender</button>
+              </div>
+            </article>
+
+            <!-- Produto 2: Trufadinho Chocolate -->
+            <article class="product-card" data-category="trufadinho">
+              <div class="product-card__image-box product-card__image-box--red">
+                <span class="product-card__badge">+180% Lucro</span>
+                <img src="assets/acai.jpg" alt="Trufadinho Chocolate" class="product-card__image" style="transform: rotate(-10deg);">
+              </div>
+              <div class="product-card__info">
+                <h3 class="product-card__title">Pote Trufadinho Chocolate Belga (350ml)</h3>
+                <button class="product-card__btn">Quero Revender</button>
+              </div>
+            </article>
+
+            <!-- Produto 3: Açaí 10L -->
+            <article class="product-card" data-category="acai">
+              <div class="product-card__image-box product-card__image-box--purple">
+                <span class="product-card__badge">Best-Seller</span>
+                <img src="assets/acai.jpg" alt="Açaí Pop Frozen 10L" class="product-card__image">
+              </div>
+              <div class="product-card__info">
+                <h3 class="product-card__title">Balde Açaí Pop Frozen Premium (10L)</h3>
+                <button class="product-card__btn">Quero Revender</button>
+              </div>
+            </article>
+
+            <!-- Produto 4: Massa Creme 6L -->
+            <article class="product-card" data-category="massa">
+              <div class="product-card__image-box product-card__image-box--brown">
+                <span class="product-card__badge">Alta Margem</span>
+                <img src="assets/acai.jpg" alt="Massa Creme Especial" class="product-card__image">
+              </div>
+              <div class="product-card__info">
+                <h3 class="product-card__title">Balde Creme Especial Tradicional (6 Litros)</h3>
+                <button class="product-card__btn">Quero Revender</button>
+              </div>
+            </article>
+
+            <!-- Produto 5: Picolé Skimo Trufado -->
+            <article class="product-card" data-category="picoles">
+              <div class="product-card__image-box product-card__image-box--gold">
+                <span class="product-card__badge">+200% Lucro</span>
+                <img src="assets/acai.jpg" alt="Skimo Trufado" class="product-card__image" style="transform: scale(0.9);">
+              </div>
+              <div class="product-card__info">
+                <h3 class="product-card__title">Picolé Skimo com Casca Crocante de Chocolate</h3>
+                <button class="product-card__btn">Quero Revender</button>
+              </div>
+            </article>
+
+            <!-- Produto 6: Pote Trufado Maracujá -->
+            <article class="product-card" data-category="trufadinho">
+              <div class="product-card__image-box product-card__image-box--red">
+                <span class="product-card__badge">Linha Família</span>
+                <img src="assets/acai.jpg" alt="Trufado Maracujá 1L" class="product-card__image" style="transform: rotate(5deg);">
+              </div>
+              <div class="product-card__info">
+                <h3 class="product-card__title">Pote de Sorvete Trufado Maracujá (1 Litro)</h3>
+                <button class="product-card__btn">Quero Revender</button>
+              </div>
+            </article>
+
+          </div>
+        </div>
+      </section>
+      <!-- === FIM: Novo Catálogo Figma B2B === -->
+
+      <!-- === SEÇÃO: Seja Revendedor === -->
+      <!-- === INÍCIO: Seja Revendedor === -->
+      <section id="seja-revendedor" class="relative py-16 md:py-20 overflow-hidden bg-[#F5F5F7] text-[#1A1A2E]">
+      <div class="absolute inset-0 opacity-20">
+      <div class="absolute top-0 left-0 w-64 h-64 bg-white rounded-full -translate-x-1/2 -translate-y-1/2">
+      </div>
+      <div class="absolute bottom-0 right-0 w-96 h-96 bg-white rounded-full translate-x-1/3 translate-y-1/3">
+      </div>
+      </div>
+      <div class="container mx-auto px-4 relative z-10">
+      <div class="max-w-4xl mx-auto text-center">
+      <span class="inline-block font-black px-5 py-2 rounded-full text-sm uppercase tracking-widest mb-6 shadow-sm bg-[#ffffff] border border-[#009ED7] text-[#009ED7]">Oportunidade Exclusiva</span>
+      <h2 class="font-display text-4xl md:text-6xl lg:text-7xl mb-4 leading-tight font-black text-[#1A1A2E]">SEJA UM <span class="text-[#009ED7]">REVENDEDOR</span>
+      </h2>
+      <p class="text-xl md:text-2xl mb-8 max-w-2xl mx-auto text-[#1A1A2E]">Compre direto da fábrica e lucre até <strong class="text-[#009ED7]">200%</strong> de margem na revenda.</p>
+      <div class="grid sm:grid-cols-3 gap-4 mb-10 max-w-3xl mx-auto">
+      
+      <!-- Card 1: Preço de Fábrica -->
+      <div class="rounded-2xl p-5 border text-center transition-transform hover:-translate-y-1 duration-300 bg-[#E0F9FF]" style="border-color: rgba(1, 53, 251, 0.1); box-shadow: 0 4px 12px rgba(1, 53, 251, 0.05)">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-wallet size-8 mx-auto mb-3 text-[#35D701]" aria-hidden="true">
+      <path d="M19 7V4a1 1 0 0 0-1-1H5a2 2 0 0 0 0 4h15a1 1 0 0 1 1 1v4h-3a2 2 0 0 0 0 4h3a1 1 0 0 0 1-1v-2a1 1 0 0 0-1-1">
+      </path>
+      <path d="M3 5v14a2 2 0 0 0 2 2h15a1 1 0 0 0 1-1v-4">
+      </path>
+      </svg>
+      <p class="font-bold text-lg text-[#1A1A2E]">Preço de Fábrica</p>
+      <p class="text-sm text-[#6B7280]">Sem intermediários</p>
+      </div>
+      
+      <!-- Card 2: Margem de Até 200% -->
+      <div class="rounded-2xl p-5 border text-center transition-transform hover:-translate-y-1 duration-300 bg-[#E0F9FF]" style="border-color: rgba(1, 53, 251, 0.1); box-shadow: 0 4px 12px rgba(1, 53, 251, 0.05)">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trending-up size-8 mx-auto mb-3 text-[#0135FB]" aria-hidden="true">
+      <path d="M16 7h6v6">
+      </path>
+      <path d="m22 7-8.5 8.5-5-5L2 17">
+      </path>
+      </svg>
+      <p class="font-bold text-lg text-[#1A1A2E]">Margem de Até 200%</p>
+      <p class="text-sm text-[#6B7280]">Alta rentabilidade</p>
+      </div>
+      
+      <!-- Card 3: Frete Grátis -->
+      <div class="rounded-2xl p-5 border text-center transition-transform hover:-translate-y-1 duration-300 bg-[#E0F9FF]" style="border-color: rgba(1, 53, 251, 0.1); box-shadow: 0 4px 12px rgba(1, 53, 251, 0.05)">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-truck size-8 mx-auto mb-3 text-[#FB014D]" aria-hidden="true">
+      <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2">
+      </path>
+      <path d="M15 18H9">
+      </path>
+      <path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14">
+      </path>
+      <circle cx="17" cy="18" r="2">
+      </circle>
+      <circle cx="7" cy="18" r="2">
+      </circle>
+      </svg>
+      <p class="font-bold text-lg text-[#1A1A2E]">Frete Grátis</p>
+      <p class="text-sm text-[#6B7280]">Entrega até você</p>
+      </div>
+      
+      </div>
+      <a href="https://wa.me/5511981784142?text=Ol%C3%A1%20Kizar!%20Quero%20ser%20revendedor%20e%20receber%20a%20tabela%20de%20pre%C3%A7os." target="_blank" rel="noopener noreferrer" class="pulse-cta inline-flex items-center justify-center gap-3 font-black px-10 py-5 rounded-full text-xl shadow-2xl hover:bg-[#1ebe57] transition-colors bg-[#25D366] text-[#ffffff]">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle size-7 text-[#ffffff]" aria-hidden="true">
+      <path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719">
+      </path>
+      </svg>QUERO SER REVENDEDOR AGORA</a>
+      <p class="mt-4 text-sm text-[#6B7280]">Fale direto com a gente no WhatsApp <strong class="text-[#1A1A2E]">(11) 98178-4142</strong>
+      </p>
+      </div>
+      </div>
+      </section>
+      <!-- === FIM: Seja Revendedor === -->
+
+      <!-- === SEÇÃO: Tabela de Preços B2B === -->
+      <!-- === INÍCIO: Tabela de Preços B2B === -->
+      <section id="precos-b2b" class="py-16 md:py-24 bg-hero-kizar relative overflow-hidden">
+      <div class="container mx-auto px-4 relative">
+      <div class="bg-white rounded-3xl p-6 md:p-8 shadow-2xl">
+      <div class="text-center mb-6">
+      <span class="inline-flex items-center gap-2 bg-kizar-orange-deep text-white font-black px-4 py-2 rounded-full text-xs uppercase tracking-widest mb-3">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lock size-4" aria-hidden="true">
+      <rect width="18" height="11" x="3" y="11" rx="2" ry="2">
+      </rect>
+      <path d="M7 11V7a5 5 0 0 1 10 0v4">
+      </path>
+      </svg> Acesso exclusivo a revendedores</span>
+      <h3 class="font-display text-3xl md:text-4xl text-kizar-blue-deep mb-2">TABELA DE <span class="text-kizar-orange-deep">PREÇOS</span>
+      </h3>
+      <p class="text-sm text-muted-foreground max-w-xl mx-auto">Por política comercial, os valores de atacado são liberados apenas via WhatsApp para revendedores cadastrados.</p>
+      </div>
+      <div class="relative overflow-hidden rounded-2xl border border-border">
+      <table class="w-full text-sm">
+      <thead>
+      <tr class="bg-blue-cta text-white text-left">
+      <th class="px-4 py-3 font-display text-base">Produto</th>
+      <th class="px-4 py-3 font-display text-base text-center">Destaque</th>
+      <th class="px-4 py-3 font-display text-base text-center">Atacado</th>
+      <th class="px-4 py-3 font-display text-base text-center">Margem</th>
+      </tr>
+      </thead>
+      <tbody class="select-none">
+      <tr class="bg-kizar-cream">
+      <td class="px-4 py-3 font-semibold text-kizar-blue-deep">Picolé Tradicional</td>
+      <td class="px-4 py-3 text-center">
+      <span class="inline-block bg-kizar-yellow text-kizar-blue-deep font-bold px-2 py-0.5 rounded-full text-xs">27 sabores</span>
+      </td>
+      <td class="px-4 py-3 text-center">
+      <span class="inline-flex items-center gap-1 text-muted-foreground/70 font-mono blur-sm">R$ ••,••</span>
+      </td>
+      <td class="px-4 py-3 text-center">
+      <span class="inline-flex items-center gap-1 text-muted-foreground/70 font-mono blur-sm">•••%</span>
+      </td>
+      </tr>
+      <tr class="bg-white">
+      <td class="px-4 py-3 font-semibold text-kizar-blue-deep">Picolé Duo / Trio / Skimo</td>
+      <td class="px-4 py-3 text-center">
+      <span class="inline-block bg-kizar-yellow text-kizar-blue-deep font-bold px-2 py-0.5 rounded-full text-xs">Linha premium</span>
+      </td>
+      <td class="px-4 py-3 text-center">
+      <span class="inline-flex items-center gap-1 text-muted-foreground/70 font-mono blur-sm">R$ ••,••</span>
+      </td>
+      <td class="px-4 py-3 text-center">
+      <span class="inline-flex items-center gap-1 text-muted-foreground/70 font-mono blur-sm">•••%</span>
+      </td>
+      </tr>
+      <tr class="bg-kizar-cream">
+      <td class="px-4 py-3 font-semibold text-kizar-blue-deep">Pote Trufadinho 350ml</td>
+      <td class="px-4 py-3 text-center">
+      <span class="inline-block bg-kizar-yellow text-kizar-blue-deep font-bold px-2 py-0.5 rounded-full text-xs">Best-seller</span>
+      </td>
+      <td class="px-4 py-3 text-center">
+      <span class="inline-flex items-center gap-1 text-muted-foreground/70 font-mono blur-sm">R$ ••,••</span>
+      </td>
+      <td class="px-4 py-3 text-center">
+      <span class="inline-flex items-center gap-1 text-muted-foreground/70 font-mono blur-sm">•••%</span>
+      </td>
+      </tr>
+      <tr class="bg-white">
+      <td class="px-4 py-3 font-semibold text-kizar-blue-deep">Pote 500ml Premium</td>
+      <td class="px-4 py-3 text-center">
+      <span class="inline-block bg-kizar-yellow text-kizar-blue-deep font-bold px-2 py-0.5 rounded-full text-xs">Alta margem</span>
+      </td>
+      <td class="px-4 py-3 text-center">
+      <span class="inline-flex items-center gap-1 text-muted-foreground/70 font-mono blur-sm">R$ ••,••</span>
+      </td>
+      <td class="px-4 py-3 text-center">
+      <span class="inline-flex items-center gap-1 text-muted-foreground/70 font-mono blur-sm">•••%</span>
+      </td>
+      </tr>
+      <tr class="bg-kizar-cream">
+      <td class="px-4 py-3 font-semibold text-kizar-blue-deep">Pote 1L Trufado</td>
+      <td class="px-4 py-3 text-center">
+      <span class="inline-block bg-kizar-yellow text-kizar-blue-deep font-bold px-2 py-0.5 rounded-full text-xs">Família</span>
+      </td>
+      <td class="px-4 py-3 text-center">
+      <span class="inline-flex items-center gap-1 text-muted-foreground/70 font-mono blur-sm">R$ ••,••</span>
+      </td>
+      <td class="px-4 py-3 text-center">
+      <span class="inline-flex items-center gap-1 text-muted-foreground/70 font-mono blur-sm">•••%</span>
+      </td>
+      </tr>
+      <tr class="bg-white">
+      <td class="px-4 py-3 font-semibold text-kizar-blue-deep">Balde 6L Sorvete de Massa</td>
+      <td class="px-4 py-3 text-center">
+      <span class="inline-block bg-kizar-yellow text-kizar-blue-deep font-bold px-2 py-0.5 rounded-full text-xs">Atacado</span>
+      </td>
+      <td class="px-4 py-3 text-center">
+      <span class="inline-flex items-center gap-1 text-muted-foreground/70 font-mono blur-sm">R$ ••,••</span>
+      </td>
+      <td class="px-4 py-3 text-center">
+      <span class="inline-flex items-center gap-1 text-muted-foreground/70 font-mono blur-sm">•••%</span>
+      </td>
+      </tr>
+      <tr class="bg-kizar-cream">
+      <td class="px-4 py-3 font-semibold text-kizar-blue-deep">Balde 10L Sorvete de Massa</td>
+      <td class="px-4 py-3 text-center">
+      <span class="inline-block bg-kizar-yellow text-kizar-blue-deep font-bold px-2 py-0.5 rounded-full text-xs">Atacado</span>
+      </td>
+      <td class="px-4 py-3 text-center">
+      <span class="inline-flex items-center gap-1 text-muted-foreground/70 font-mono blur-sm">R$ ••,••</span>
+      </td>
+      <td class="px-4 py-3 text-center">
+      <span class="inline-flex items-center gap-1 text-muted-foreground/70 font-mono blur-sm">•••%</span>
+      </td>
+      </tr>
+      <tr class="bg-white">
+      <td class="px-4 py-3 font-semibold text-kizar-blue-deep">Açaí Pop Frozen 200ml</td>
+      <td class="px-4 py-3 text-center">
+      <span class="inline-block bg-kizar-yellow text-kizar-blue-deep font-bold px-2 py-0.5 rounded-full text-xs">Tendência</span>
+      </td>
+      <td class="px-4 py-3 text-center">
+      <span class="inline-flex items-center gap-1 text-muted-foreground/70 font-mono blur-sm">R$ ••,••</span>
+      </td>
+      <td class="px-4 py-3 text-center">
+      <span class="inline-flex items-center gap-1 text-muted-foreground/70 font-mono blur-sm">•••%</span>
+      </td>
+      </tr>
+      <tr class="bg-kizar-cream">
+      <td class="px-4 py-3 font-semibold text-kizar-blue-deep">Açaí Pop Frozen 10L</td>
+      <td class="px-4 py-3 text-center">
+      <span class="inline-block bg-kizar-yellow text-kizar-blue-deep font-bold px-2 py-0.5 rounded-full text-xs">Atacado</span>
+      </td>
+      <td class="px-4 py-3 text-center">
+      <span class="inline-flex items-center gap-1 text-muted-foreground/70 font-mono blur-sm">R$ ••,••</span>
+      </td>
+      <td class="px-4 py-3 text-center">
+      <span class="inline-flex items-center gap-1 text-muted-foreground/70 font-mono blur-sm">•••%</span>
+      </td>
+      </tr>
+      </tbody>
+      </table>
+      <div class="absolute inset-0 bg-gradient-to-b from-white/40 via-white/70 to-white/95 flex flex-col items-center justify-end pb-6 pt-16">
+      <div class="bg-kizar-blue-deep text-white rounded-2xl px-6 py-4 shadow-2xl flex items-center gap-3 mb-4 max-w-md text-center">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-lock size-6 text-kizar-yellow shrink-0" aria-hidden="true">
+      <rect width="18" height="11" x="3" y="11" rx="2" ry="2">
+      </rect>
+      <path d="M7 11V7a5 5 0 0 1 10 0v4">
+      </path>
+      </svg>
+      <p class="text-sm md:text-base font-bold">Valores liberados apenas no WhatsApp para revendedores</p>
+      </div>
+      <a href="https://wa.me/5511981784142?text=Ol%C3%A1!%20Quero%20DESBLOQUEAR%20a%20tabela%20de%20pre%C3%A7os%20oficial%20Kizar%20e%20me%20tornar%20revendedor." target="_blank" rel="noopener noreferrer" class="pulse-cta inline-flex items-center gap-2 bg-[#25D366] text-white font-black px-7 py-4 rounded-full shadow-2xl hover:bg-[#1ebe57] transition-colors text-base md:text-lg">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle size-5" aria-hidden="true">
+      <path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719">
+      </path>
+      </svg>DESBLOQUEAR TABELA AGORA</a>
+      </div>
+      </div>
+      <p class="mt-6 text-center text-xs text-muted-foreground">🔒 Atendimento direto com a fábrica · Resposta em minutos · Sem compromisso</p>
+      </div>
+      </section>
+      <!-- === FIM: Tabela de Preços B2B === -->
+      <!-- === FIM: Seja Revendedor === -->
+
+      <!-- === SEÇÃO: Diferenciais Bento B2B === -->
+      <!-- === INÍCIO: Bento Diferenciais B2B === -->
+      <section class="py-16 md:py-20 bg-kizar-cream">
+      <div class="container mx-auto px-4">
+      <h2 class="font-display text-3xl md:text-5xl text-center text-kizar-blue-deep mb-12">POR QUE REVENDER <span class="text-kizar-orange-deep">KIZAR?</span>
+      </h2>
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-white rounded-2xl p-6 shadow-card-kizar border-l-4 border-kizar-orange hover:border-kizar-blue transition-colors">
+      <div class="size-14 rounded-2xl bg-orange-kizar flex items-center justify-center mb-4 shadow-glow-orange">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-factory size-7 text-white" aria-hidden="true">
+      <path d="M12 16h.01">
+      </path>
+      <path d="M16 16h.01">
+      </path>
+      <path d="M3 19a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V8.5a.5.5 0 0 0-.769-.422l-4.462 2.844A.5.5 0 0 1 15 10.5v-2a.5.5 0 0 0-.769-.422L9.77 10.922A.5.5 0 0 1 9 10.5V5a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2z">
+      </path>
+      <path d="M8 16h.01">
+      </path>
+      </svg>
+      </div>
+      <h3 class="font-display text-xl text-kizar-blue-deep mb-2">Preço de Fábrica</h3>
+      <p class="text-sm text-muted-foreground">Compre direto do produtor. Sem atravessador, sem markup, sem perder margem.</p>
+      </div>
+      <div class="bg-white rounded-2xl p-6 shadow-card-kizar border-l-4 border-kizar-orange hover:border-kizar-blue transition-colors">
+      <div class="size-14 rounded-2xl bg-orange-kizar flex items-center justify-center mb-4 shadow-glow-orange">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-trending-up size-7 text-white" aria-hidden="true">
+      <path d="M16 7h6v6">
+      </path>
+      <path d="m22 7-8.5 8.5-5-5L2 17">
+      </path>
+      </svg>
+      </div>
+      <h3 class="font-display text-xl text-kizar-blue-deep mb-2">Margem Alta</h3>
+      <p class="text-sm text-muted-foreground">Lucre de 150% a 200% em cada product. Seu caixa cresce todo mês.</p>
+      </div>
+      <div class="bg-white rounded-2xl p-6 shadow-card-kizar border-l-4 border-kizar-orange hover:border-kizar-blue transition-colors">
+      <div class="size-14 rounded-2xl bg-orange-kizar flex items-center justify-center mb-4 shadow-glow-orange">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-truck size-7 text-white" aria-hidden="true">
+      <path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2">
+      </path>
+      <path d="M15 18H9">
+      </path>
+      <path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14">
+      </path>
+      <circle cx="17" cy="18" r="2">
+      </circle>
+      <circle cx="7" cy="18" r="2">
+      </circle>
+      </svg>
+      </div>
+      <h3 class="font-display text-xl text-kizar-blue-deep mb-2">Frete Grátis</h3>
+      <p class="text-sm text-muted-foreground">Entregamos na sua porta sem custo. Você só pensa em vender.</p>
+      </div>
+      <div class="bg-white rounded-2xl p-6 shadow-card-kizar border-l-4 border-kizar-orange hover:border-kizar-blue transition-colors">
+      <div class="size-14 rounded-2xl bg-orange-kizar flex items-center justify-center mb-4 shadow-glow-orange">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-boxes size-7 text-white" aria-hidden="true">
+      <path d="M2.97 12.92A2 2 0 0 0 2 14.63v3.24a2 2 0 0 0 .97 1.71l3 1.8a2 2 0 0 0 2.06 0L12 19v-5.5l-5-3-4.03 2.42Z">
+      </path>
+      <path d="m7 16.5-4.74-2.85">
+      </path>
+      <path d="m7 16.5 5-3">
+      </path>
+      <path d="M7 16.5v5.17">
+      </path>
+      <path d="M12 13.5V19l3.97 2.38a2 2 0 0 0 2.06 0l3-1.8a2 2 0 0 0 .97-1.71v-3.24a2 2 0 0 0-.97-1.71L17 10.5l-5 3Z">
+      </path>
+      <path d="m17 16.5-5-3">
+      </path>
+      <path d="m17 16.5 4.74-2.85">
+      </path>
+      <path d="M17 16.5v5.17">
+      </path>
+      <path d="M7.97 4.42A2 2 0 0 0 7 6.13v4.37l5 3 5-3V6.13a2 2 0 0 0-.97-1.71l-3-1.8a2 2 0 0 0-2.06 0l-3 1.8Z">
+      </path>
+      <path d="M12 8 7.26 5.15">
+      </path>
+      <path d="m12 8 4.74-2.85">
+      </path>
+      <path d="M12 13.5V8">
+      </path>
+      </svg>
+      </div>
+      <h3 class="font-display text-xl text-kizar-blue-deep mb-2">Variedade Total</h3>
+      <p class="text-sm text-muted-foreground">Picolés, potes, baldes 6L/10L, açaí 200ml a 10L. Vitrine sempre completa.</p>
+      </div>
+      <div class="bg-white rounded-2xl p-6 shadow-card-kizar border-l-4 border-kizar-orange hover:border-kizar-blue transition-colors">
+      <div class="size-14 rounded-2xl bg-orange-kizar flex items-center justify-center mb-4 shadow-glow-orange">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-crown size-7 text-white" aria-hidden="true">
+      <path d="M11.562 3.266a.5.5 0 0 1 .876 0L15.39 8.87a1 1 0 0 0 1.516.294L21.183 5.5a.5.5 0 0 1 .798.519l-2.834 10.246a1 1 0 0 1-.956.734H5.81a1 1 0 0 1-.957-.734L2.02 6.02a.5.5 0 0 1 .798-.519l4.276 3.664a1 1 0 0 0 1.516-.294z">
+      </path>
+      <path d="M5 21h14">
+      </path>
+      </svg>
+      </div>
+      <h3 class="font-display text-xl text-kizar-blue-deep mb-2">Marca Reconhecida</h3>
+      <p class="text-sm text-muted-foreground">Kizar – O Rei do Sabor. Embalagem premium que vende sozinha.</p>
+      </div>
+      <div class="bg-white rounded-2xl p-6 shadow-card-kizar border-l-4 border-kizar-orange hover:border-kizar-blue transition-colors">
+      <div class="size-14 rounded-2xl bg-orange-kizar flex items-center justify-center mb-4 shadow-glow-orange">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-headphones size-7 text-white" aria-hidden="true">
+      <path d="M3 14h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-7a9 9 0 0 1 18 0v7a2 2 0 0 1-2 2h-1a2 2 0 0 1-2-2v-3a2 2 0 0 1 2-2h3">
+      </path>
+      </svg>
+      </div>
+      <h3 class="font-display text-xl text-kizar-blue-deep mb-2">Suporte Dedicado</h3>
+      <p class="text-sm text-muted-foreground">Atendimento direto pelo WhatsApp. Pedido rápido, reposição garantida.</p>
+      </div>
+      </div>
+      </div>
+      </section>
+      <!-- === FIM: Bento Diferenciais B2B === -->
+
+      <!-- === SEÇÃO: Depoimentos B2B === -->
+      <!-- === INÍCIO: Depoimentos === -->
+      <section id="prova" class="py-16 md:py-24 bg-white">
+      <div class="container mx-auto px-4">
+      <div class="text-center mb-12">
+      <h2 class="font-display text-4xl md:text-6xl text-kizar-blue-deep mb-4">QUEM REVENDE, <span class="text-kizar-orange-deep">RECOMENDA</span>
+      </h2>
+      <div class="flex justify-center gap-1 mb-2">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star size-6 fill-[#FFC700] text-[#FFC700] fill-[#FFC700] text-[#FFC700]" aria-hidden="true">
+      <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+      </path>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star size-6 fill-[#FFC700] text-[#FFC700] fill-[#FFC700] text-[#FFC700]" aria-hidden="true">
+      <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+      </path>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star size-6 fill-[#FFC700] text-[#FFC700] fill-[#FFC700] text-[#FFC700]" aria-hidden="true">
+      <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+      </path>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star size-6 fill-[#FFC700] text-[#FFC700] fill-[#FFC700] text-[#FFC700]" aria-hidden="true">
+      <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+      </path>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star size-6 fill-[#FFC700] text-[#FFC700] fill-[#FFC700] text-[#FFC700]" aria-hidden="true">
+      <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+      </path>
+      </svg>
+      </div>
+      <p class="text-muted-foreground">+500 revendedores ativos faturando com Kizar</p>
+      </div>
+      <div class="grid md:grid-cols-3 gap-6">
+      <div class="relative bg-kizar-cream rounded-3xl p-7 shadow-card-kizar">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-quote absolute -top-4 left-6 size-10 text-kizar-orange bg-white rounded-full p-2 shadow-lg" aria-hidden="true">
+      <path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z">
+      </path>
+      <path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z">
+      </path>
+      </svg>
+      <div class="flex gap-1 mb-3">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star size-4 fill-kizar-yellow text-kizar-yellow" aria-hidden="true">
+      <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+      </path>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star size-4 fill-kizar-yellow text-kizar-yellow" aria-hidden="true">
+      <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+      </path>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star size-4 fill-kizar-yellow text-kizar-yellow" aria-hidden="true">
+      <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+      </path>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star size-4 fill-kizar-yellow text-kizar-yellow" aria-hidden="true">
+      <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+      </path>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star size-4 fill-kizar-yellow text-kizar-yellow" aria-hidden="true">
+      <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+      </path>
+      </svg>
+      </div>
+      <p class="text-foreground mb-5 italic">&quot;Comecei revendendo só os picolés. Hoje vendo a linha toda da Kizar, fatura mais que refrigerante no verão!&quot;</p>
+      <div class="border-t border-border pt-4">
+      <div class="font-bold text-kizar-blue-deep">Carlos Mendes</div>
+      <div class="text-xs text-muted-foreground">Mercado Bom Preço — Itaquaquecetuba</div>
+      </div>
+      </div>
+      <div class="relative bg-kizar-cream rounded-3xl p-7 shadow-card-kizar">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-quote absolute -top-4 left-6 size-10 text-kizar-orange bg-white rounded-full p-2 shadow-lg" aria-hidden="true">
+      <path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z">
+      </path>
+      <path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z">
+      </path>
+      </svg>
+      <div class="flex gap-1 mb-3">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star size-4 fill-kizar-yellow text-kizar-yellow" aria-hidden="true">
+      <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+      </path>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star size-4 fill-kizar-yellow text-kizar-yellow" aria-hidden="true">
+      <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+      </path>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star size-4 fill-kizar-yellow text-kizar-yellow" aria-hidden="true">
+      <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+      </path>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star size-4 fill-kizar-yellow text-kizar-yellow" aria-hidden="true">
+      <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+      </path>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star size-4 fill-kizar-yellow text-kizar-yellow" aria-hidden="true">
+      <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+      </path>
+      </svg>
+      </div>
+      <p class="text-foreground mb-5 italic">&quot;Os potes trufados são o que mais sai. Margem alta, cliente volta toda semana. Recomendo de olhos fechados.&quot;</p>
+      <div class="border-t border-border pt-4">
+      <div class="font-bold text-kizar-blue-deep">Juliana Souza</div>
+      <div class="text-xs text-muted-foreground">Padaria Pão Doce — Suzano</div>
+      </div>
+      </div>
+      <div class="relative bg-kizar-cream rounded-3xl p-7 shadow-card-kizar">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-quote absolute -top-4 left-6 size-10 text-kizar-orange bg-white rounded-full p-2 shadow-lg" aria-hidden="true">
+      <path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z">
+      </path>
+      <path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z">
+      </path>
+      </svg>
+      <div class="flex gap-1 mb-3">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star size-4 fill-kizar-yellow text-kizar-yellow" aria-hidden="true">
+      <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+      </path>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star size-4 fill-kizar-yellow text-kizar-yellow" aria-hidden="true">
+      <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+      </path>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star size-4 fill-kizar-yellow text-kizar-yellow" aria-hidden="true">
+      <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+      </path>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star size-4 fill-kizar-yellow text-kizar-yellow" aria-hidden="true">
+      <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+      </path>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-star size-4 fill-kizar-yellow text-kizar-yellow" aria-hidden="true">
+      <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z">
+      </path>
+      </svg>
+      </div>
+      <p class="text-foreground mb-5 italic">&quot;O balde de 10L tem o melhor custo-benefício que já comprei. Frete grátis e entrega rápida. Parceria certa.&quot;</p>
+      <div class="border-t border-border pt-4">
+      <div class="font-bold text-kizar-blue-deep">Roberto Lima</div>
+      <div class="text-xs text-muted-foreground">Sorveteria Gelatto — Mogi das Cruzes</div>
+      </div>
+      </div>
+      </div>
+      <div class="mt-14 grid grid-cols-2 md:grid-cols-4 gap-4 max-w-4xl mx-auto">
+      <div class="text-center bg-blue-cta text-white rounded-2xl p-5 shadow-glow-blue">
+      <div class="font-display text-3xl text-[#FFC700] font-black text-[#FFC700]">+10.000L</div>
+      <div class="text-xs uppercase tracking-wider mt-1">Produzidos por mês</div>
+      </div>
+      <div class="text-center bg-blue-cta text-white rounded-2xl p-5 shadow-glow-blue">
+      <div class="font-display text-3xl text-[#FFC700] font-black text-[#FFC700]">+500</div>
+      <div class="text-xs uppercase tracking-wider mt-1">Revendedores ativos</div>
+      </div>
+      <div class="text-center bg-blue-cta text-white rounded-2xl p-5 shadow-glow-blue">
+      <div class="font-display text-3xl text-[#FFC700] font-black text-[#FFC700]">+50</div>
+      <div class="text-xs uppercase tracking-wider mt-1">Sabores diferentes</div>
+      </div>
+      <div class="text-center bg-blue-cta text-white rounded-2xl p-5 shadow-glow-blue">
+      <div class="font-display text-3xl text-[#FFC700] font-black text-[#FFC700]">98%</div>
+      <div class="text-xs uppercase tracking-wider mt-1">Recompram</div>
+      </div>
+      </div>
+      </div>
+      </section>
+      <!-- === FIM: Depoimentos === -->
+
+      <!-- === SEÇÃO: Cadastro Revendedor === -->
+      <!-- === INÍCIO: Cadastro Revendedor === -->
+      <section id="revendedor" class="py-16 md:py-24 relative overflow-hidden bg-[#E8F4FD]">
+      <div class="container mx-auto px-4 grid lg:grid-cols-2 gap-12 items-center relative">
+      <div class="text-[#1A1A2E] text-[#1A1A2E]">
+      <span class="inline-flex items-center gap-2 bg-kizar-red text-white font-black px-4 py-2 rounded-full text-xs uppercase tracking-widest mb-5 animate-pulse">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-triangle-alert size-4" aria-hidden="true">
+      <path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3">
+      </path>
+      <path d="M12 9v4">
+      </path>
+      <path d="M12 17h.01">
+      </path>
+      </svg> Vagas limitadas por região</span>
+      <h2 class="font-display text-4xl md:text-6xl mb-6 text-[#1A1A2E]">COMECE A FATURAR<br/>EM ATÉ 48H</h2>
+      <p class="text-xl mb-6 leading-relaxed">Preencha o cadastro e receba na hora a <strong>tabela de preços de fábrica</strong>, o kit do revendedor e o suporte direto para o seu primeiro pedido.</p>
+      <ul class="space-y-3 mb-8">
+      <li class="flex items-start gap-3 text-lg">
+      <span class="mt-1 size-6 rounded-full bg-kizar-yellow flex items-center justify-center shrink-0">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4 text-kizar-blue-deep" aria-hidden="true">
+      <path d="M20 6 9 17l-5-5">
+      </path>
+      </svg>
+      </span>Pedido mínimo acessível para começar</li>
+      <li class="flex items-start gap-3 text-lg">
+      <span class="mt-1 size-6 rounded-full bg-kizar-yellow flex items-center justify-center shrink-0">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4 text-kizar-blue-deep" aria-hidden="true">
+      <path d="M20 6 9 17l-5-5">
+      </path>
+      </svg>
+      </span>Frete grátis até a sua porta</li>
+      <li class="flex items-start gap-3 text-lg">
+      <span class="mt-1 size-6 rounded-full bg-kizar-yellow flex items-center justify-center shrink-0">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4 text-kizar-blue-deep" aria-hidden="true">
+      <path d="M20 6 9 17l-5-5">
+      </path>
+      </svg>
+      </span>Tabela exclusiva de revendedor</li>
+      <li class="flex items-start gap-3 text-lg">
+      <span class="mt-1 size-6 rounded-full bg-kizar-yellow flex items-center justify-center shrink-0">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4 text-kizar-blue-deep" aria-hidden="true">
+      <path d="M20 6 9 17l-5-5">
+      </path>
+      </svg>
+      </span>Entrega em até 48h úteis</li>
+      <li class="flex items-start gap-3 text-lg">
+      <span class="mt-1 size-6 rounded-full bg-kizar-yellow flex items-center justify-center shrink-0">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-check size-4 text-kizar-blue-deep" aria-hidden="true">
+      <path d="M20 6 9 17l-5-5">
+      </path>
+      </svg>
+      </span>Sem mensalidade, sem taxa de adesão</li>
+      </ul>
+      </div>
+      <form class="rounded-3xl p-7 md:p-9 shadow-2xl border-t-8 border-kizar-yellow bg-[#ffffff]">
+      <h3 class="font-display text-2xl md:text-3xl text-kizar-blue-deep mb-2">QUERO SER REVENDEDOR</h3>
+      <p class="text-sm text-muted-foreground mb-6">Receba a tabela completa em segundos no seu WhatsApp.</p>
+      <div class="space-y-4">
+      <div>
+      <label class="block text-sm font-bold text-kizar-blue-deep mb-1">Seu nome</label>
+      <input required="" placeholder="Ex: João Silva" class="w-full h-12 px-4 rounded-xl border-2 border-border focus:border-kizar-orange focus:outline-none transition-colors" value=""/>
+      </div>
+      <div>
+      <label class="block text-sm font-bold text-kizar-blue-deep mb-1">Cidade / Região</label>
+      <input required="" placeholder="Ex: Itaquaquecetuba - SP" class="w-full h-12 px-4 rounded-xl border-2 border-border focus:border-kizar-orange focus:outline-none transition-colors" value=""/>
+      </div>
+      <div>
+      <label class="block text-sm font-bold text-kizar-blue-deep mb-1">Seu negócio</label>
+      <select class="w-full h-12 px-4 rounded-xl border-2 border-border focus:border-kizar-orange focus:outline-none bg-white">
+      <option selected="">Mercado</option>
+      <option>Padaria</option>
+      <option>Conveniência</option>
+      <option>Sorveteria</option>
+      <option>Distribuidor</option>
+      <option>Vou começar agora</option>
+      </select>
+      </div>
+      <button type="submit" class="w-full pulse-cta inline-flex items-center justify-center gap-3 bg-[#25D366] text-white font-black px-6 py-5 rounded-full text-lg shadow-2xl hover:bg-[#1ebe57] transition-colors">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle size-6" aria-hidden="true">
+      <path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719">
+      </path>
+      </svg>QUERO REVENDER AGORA</button>
+      <p class="text-xs text-center text-muted-foreground">Resposta em minutos no WhatsApp <strong>(11) 98178-4142</strong>
+      </p>
+      </div>
+      </form>
+      </div>
+      </section>
+      <!-- === FIM: Cadastro Revendedor === -->
+
+      <!-- === SEÇÃO: Rodapé === -->
+      <footer id="contato" class="bg-kizar-blue-deep text-white pt-16 pb-8 bg-[#005A9E]">
+        <div class="container mx-auto px-4">
+          <div class="grid md:grid-cols-3 gap-10 mb-10">
+            <div>
+              <img src="assets/logo_oficial.png" alt="Kizar - O Rei do Sabor" class="h-20 w-auto mb-4 drop-shadow-xl"/>
+              <p class="font-display text-lg text-kizar-yellow mb-3 leading-snug">"O sabor da nossa história, a paixão que dura há mais de duas décadas."</p>
+              <p class="text-sm opacity-90 leading-relaxed">Fábrica Kizar — sorvetes, picolés, potes e açaí premium com preço de fábrica para revendedores, mercados, padarias, conveniências e sorveterias.</p>
+            </div>
+
+            <div>
+              <h3 class="font-display text-xl mb-4 text-kizar-yellow">CONTATO</h3>
+              <ul class="space-y-3 text-sm">
+                <li class="flex items-start gap-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-phone size-5 text-[#FB3F01] shrink-0 mt-0.5" aria-hidden="true">
+                    <path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"></path>
+                  </svg>
+                  <a href="tel:+5511981784142" class="hover:text-kizar-yellow transition-colors">(11) 98178-4142</a>
+                </li>
+                <li class="flex items-start gap-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle size-5 text-[#25D366] shrink-0 mt-0.5" aria-hidden="true">
+                    <path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"></path>
+                  </svg>
+                  <a href="https://wa.me/5511981784142?text=Ol%C3%A1!%20Quero%20ser%20revendedor%20Kizar." target="_blank" rel="noopener noreferrer" class="hover:text-kizar-yellow transition-colors">WhatsApp Revendedores</a>
+                </li>
+                <li class="flex items-start gap-3">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail size-5 text-[#FB3F01] shrink-0 mt-0.5" aria-hidden="true">
+                    <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
+                    <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                  </svg>
+                  <a href="mailto:contato@kizar.com.br" class="hover:text-kizar-yellow transition-colors">contato@kizar.com.br</a>
+                </li>
+              </ul>
+            </div>
+
+            <div>
+              <h3 class="font-display text-xl mb-4 text-kizar-yellow">A FÁBRICA</h3>
+              <div class="flex items-start gap-3 text-sm">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-map-pin size-5 text-[#FB3F01] shrink-0 mt-0.5" aria-hidden="true">
+                  <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+                <address class="not-italic leading-relaxed opacity-90">
+                  <strong>Kizar Produtos Alimentícios &amp; Representações Ltda</strong>
+                  <br/>CNPJ: 27.522.965/0001-09<br/>R. Brig. José Vicente Faria Lima, 28<br/>Vila Zesuina — Itaquaquecetuba/SP<br/>CEP 08570-720
+                </address>
+              </div>
+            </div>
+          </div>
+
+          <div class="border-t border-white/20 pt-6 flex flex-col md:flex-row items-center justify-between gap-4 text-sm">
+            <p class="opacity-80">© 2026 Kizar — O Rei do Sabor. Todos os direitos reservados.</p>
+            <a href="https://wa.me/5511981784142?text=Ol%C3%A1!%20Quero%20ser%20revendedor%20Kizar." target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 bg-[#25D366] text-white font-bold px-5 py-2.5 rounded-full hover:scale-105 transition-transform">
+              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-message-circle size-4" aria-hidden="true">
+                <path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"></path>
+              </svg> Falar agora
+            </a>
+          </div>
+        </div>
+      </footer>
+
+    </main>
+  </div>
+
+  <!-- Scripts Unificados: Filtragem, Menu Mobile e Fallback de Imagens -->
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // === 1. Filtragem Dinâmica do Catálogo Interativo ===
+      const filterButtons = document.querySelectorAll('.catalog-section__filter-btn');
+      const productCards = document.querySelectorAll('.product-card');
+
+      filterButtons.forEach(btn => {
+        btn.addEventListener('click', function() {
+          // Remove classe ativa de todos
+          filterButtons.forEach(b => b.classList.remove('catalog-section__filter-btn--active'));
+          // Adiciona no clicado
+          this.classList.add('catalog-section__filter-btn--active');
+
+          const filterValue = this.getAttribute('data-filter');
+
+          productCards.forEach(card => {
+            if (filterValue === 'all') {
+              card.style.display = 'flex';
+              card.style.opacity = '1';
+            } else {
+              const cardCategory = card.getAttribute('data-category');
+              if (cardCategory === filterValue) {
+                card.style.display = 'flex';
+                card.style.opacity = '1';
+              } else {
+                card.style.display = 'none';
+                card.style.opacity = '0';
+              }
+            }
+          });
+        });
+      });
+
+      // === 2. Menu Mobile do Cabeçalho ===
+      const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+      const closeMenuBtn = document.getElementById('close-menu-btn');
+      const mobileMenu = document.getElementById('mobile-menu');
+      const mobileLinks = document.querySelectorAll('.mobile-link');
+
+      if (mobileMenuBtn && closeMenuBtn && mobileMenu) {
+        function openMenu() {
+          mobileMenu.classList.remove('translate-x-full');
+        }
+
+        function closeMenu() {
+          mobileMenu.classList.add('translate-x-full');
+        }
+
+        mobileMenuBtn.addEventListener('click', openMenu);
+        closeMenuBtn.addEventListener('click', closeMenu);
+
+        mobileLinks.forEach(link => {
+          link.addEventListener('click', closeMenu);
+        });
+      }
+
+      // === 3. Fallback Inteligente de Caminho de Imagens (assets/ vs ../assets/) ===
+      const logoImgs = document.querySelectorAll('img');
+      logoImgs.forEach(img => {
+        const src = img.getAttribute('src');
+        if (src && src.includes('logo_oficial.png')) {
+          img.onerror = function() {
+            if (src.startsWith('assets/')) {
+              this.src = '../' + src;
+            } else if (src.startsWith('../assets/')) {
+              this.src = src.replace('../', '');
+            }
+          };
+        }
+      });
+
+      const heroSection = document.querySelector('section[style*="kizar-premium-hero-banner.png"]');
+      if (heroSection) {
+        const bgStyle = heroSection.style.backgroundImage;
+        const match = bgStyle.match(/url\(['"]?([^'"]+)['"]?\)/);
+        if (match && match[1]) {
+          const bgUrl = match[1];
+          const testImg = new Image();
+          testImg.onerror = function() {
+            if (bgUrl.startsWith('assets/')) {
+              heroSection.style.backgroundImage = "url('../" + bgUrl + "')";
+            } else if (bgUrl.startsWith('../assets/')) {
+              heroSection.style.backgroundImage = "url('" + bgUrl.replace('../', '') + "')";
+            }
+          };
+          testImg.src = bgUrl;
+        }
+      }
+    });
+  </script>
+</body>
+</html>

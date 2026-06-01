@@ -1,0 +1,131 @@
+/* === design tokens kizar === */
+:root {
+  /* ═══════════════════════════════════════════
+     KIZAR — Design Tokens Oficiais
+     Versão 1.0 — Junho 2026
+     ═══════════════════════════════════════════ */
+
+  /* — Cores Primárias — */
+  --color-primary:          #007BD7;        /* Azul Kizar */
+  --color-primary-rgb:      0, 123, 215;
+  --color-accent:           #FB3F01;        /* Vermelho Kizar */
+  --color-accent-rgb:       251, 63, 1;
+
+  /* — Cores Secundárias — */
+  --color-primary-dark:     #005A9E;        /* Azul Profundo */
+  --color-primary-medium:   #4DA6E8;        /* Azul Médio */
+  --color-accent-warm:      #FF6B35;        /* Laranja Quente */
+  --color-accent-dark:      #E63600;        /* Vermelho Escuro */
+
+  /* — Tints & Shades — */
+  --color-primary-ice:      #E8F4FD;        /* Azul Gelo */
+  --color-primary-mist:     #CCE5F7;        /* Azul Névoa */
+  --color-accent-light:     #FFF0EB;        /* Coral Claro */
+  --color-accent-peach:     #FFD9CC;        /* Pêssego Suave */
+
+  /* — Neutros — */
+  --color-white:            #FFFFFF;
+  --color-snow:             #F5F5F7;
+  --color-gray-light:       #E5E7EB;
+  --color-gray-medium:      #9CA3AF;
+  --color-gray-text:        #6B7280;
+  --color-dark:             #1A1A2E;
+
+  /* — Cores de Fundo (Legado/Compatibilidade) — */
+  --color-bg:               #F5F5F7;        /* Cinza Neve */
+  --color-surface:          #FFFFFF;        /* Branco */
+  --color-surface-rgb:      255, 255, 255;
+  --color-text:             #1A1A2E;        /* Texto Escuro */
+  --color-text-muted:       #6B7280;        /* Cinza Texto */
+  --color-border:           #E5E7EB;        /* Cinza Claro */
+
+  /* — Cores Complementares — */
+  --color-amber:            #D78A00;
+  --color-turquoise:        #01C4FB;
+  --color-gold-warm:        #D7B000;
+  --color-coral-salmon:     #D75A3A;
+  --color-cyan-ocean:       #009ED7;
+  --color-violet:           #6B35D7;
+  --color-mint:             #00D74A;
+  --color-magenta:          #D700A0;
+  --color-tangerine:        #FB7B01;
+  --color-rose:             #FB014D;
+  --color-indigo:           #0135FB;
+  --color-teal:             #007DA0;
+  --color-lavender-blue:    #2B5ED7;
+
+  /* — Tints das Complementares — */
+  --color-cream-gold:       #FFF5E0;
+  --color-mint-ice:         #E0F9FF;
+  --color-dew-green:        #E0FFE9;
+  --color-cotton-pink:      #FFE0F3;
+  --color-tropical-peach:   #FFF0E0;
+  --color-soft-lavender:    #F0E5FF;
+
+  /* — Semânticas — */
+  --color-success:          #059669;
+  --color-success-light:    #D1FAE5;
+  --color-warning:          #D97706;
+  --color-warning-light:    #FEF3C7;
+  --color-error:            #DC2626;
+  --color-error-light:      #FEE2E2;
+  --color-info:             var(--color-primary);
+  --color-info-light:       var(--color-primary-ice);
+
+  /* — Gradientes — */
+  --gradient-royal:         linear-gradient(135deg, #007BD7 0%, #005A9E 100%);
+  --gradient-fire:          linear-gradient(135deg, #FB3F01 0%, #E63600 100%);
+  --gradient-sunrise:       linear-gradient(135deg, #FB3F01 0%, #FF6B35 50%, #FFD9CC 100%);
+  --gradient-ice:           linear-gradient(180deg, #E8F4FD 0%, #FFFFFF 100%);
+
+  /* — Tipografia — */
+  --font-display:           'Outfit', sans-serif;
+  --font-body:              'Plus Jakarta Sans', sans-serif;
+  --font-mono:              'JetBrains Mono', monospace;
+
+  --text-hero:              clamp(2.5rem, 6vw, 4.5rem);
+  --text-section:           clamp(2rem, 4vw, 3rem);
+  --text-card-title:        1.5rem;
+  --text-subtitle:          1.25rem;
+  --text-body:              1rem;
+  --text-caption:           0.875rem;
+  --text-small:             0.75rem;
+
+  /* — Espaçamentos — */
+  --space-2xs:              0.25rem;
+  --space-xs:               0.5rem;
+  --space-sm:               1rem;
+  --space-md:               1.5rem;
+  --space-lg:               2rem;
+  --space-xl:               4rem;
+  --space-2xl:              6rem;
+  --space-3xl:              8rem;
+
+  /* — Layout — */
+  --container-max:          1200px;
+  --container-wide:         1440px;
+  --container-narrow:       800px;
+  --container-padding:      clamp(1rem, 4vw, 2rem);
+  --grid-gap:               1.5rem;
+  --grid-gap-lg:            2.5rem;
+
+  /* — Border Radius — */
+  --radius-sm:              8px;
+  --radius-md:              12px;
+  --radius-lg:              16px;
+  --radius-pill:            999px;
+
+  /* — Sombras — */
+  --shadow-sm:              0 1px 3px rgba(0, 0, 0, 0.08);
+  --shadow-md:              0 4px 16px rgba(0, 0, 0, 0.12);
+  --shadow-lg:              0 8px 32px rgba(0, 0, 0, 0.16);
+  --shadow-xl:              0 16px 48px rgba(0, 0, 0, 0.20);
+  --shadow-glow-blue:       0 0 24px rgba(0, 123, 215, 0.25);
+  --shadow-glow-red:        0 0 24px rgba(251, 63, 1, 0.25);
+
+  /* — Transições — */
+  --transition-fast:        all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-base:        all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow:        all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-spring:      all 0.6s cubic-bezier(0.16, 1, 0.3, 1);
+}
