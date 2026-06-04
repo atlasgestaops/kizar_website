@@ -138,3 +138,13 @@ Este arquivo registra o log de construção de cada seção, decisões tomadas, 
   - Deploy em produção via Coolify, finalizado com sucesso no commit `8965626cbbefa613f46b59f6447405ac8891ddfd`.
 - **Resultado:** O site agora acolhe tanto o consumidor final quanto o revendedor, com tom emocional centrado no produto e caminhos claros para cada público.
 
+### 2026-06-04 - Etapa 10: Seção "Onde Comprar" (B2C)
+- **Status:** `[APROVADO]` & `[LOCKED]`
+- **Decisões tomadas:**
+  - Criação da seção dedicada "Onde Comprar" posicionada cirurgicamente entre o formulário de cadastro de revendedor e o rodapé.
+  - O objetivo é concluir a jornada do Consumidor Final (B2C) que se sentiu atraído pelos CTAs "Quero Experimentar" mas não compra no atacado online.
+  - Implementado layout premium com grid de duas colunas contendo informações à esquerda e elemento visual ilustrativo (map-pin pulse com logo da Kizar e bg translúcido) à direita para evitar a necessidade de chaves de API restritas do Google Maps Embed.
+  - Inserção de um CTA destacado "ABRIR NO GOOGLE MAPS" que aciona a Universal Link oficial (`https://www.google.com/maps/search/?api=1&query=...`), compatível com aplicativos nativos de iOS/Android e navegadores desktop.
+  - Preservado o fluxo B2B logo acima, garantindo fluidez e conversão sem interferências estruturais severas.
+  - Deploy finalizado no Coolify via commit `fa9f0fb`.
+- **Resultado:** A loja 1 agora é facilmente encontrada pelo usuário via rota direta ao Maps, entregando comodidade sem perder o perfil premium do site.
