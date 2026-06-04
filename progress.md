@@ -125,4 +125,16 @@ Este arquivo registra o log de construção de cada seção, decisões tomadas, 
   - Deploy em produção via Coolify na aplicação `ivhgnr422571ftuwm9wgnn7g`, finalizado com sucesso no commit `0443e3a62482456e49d01b6575c9f03b9ac375e5`.
 - **Resultado:** A vitrine está com as fotos e dados de produtos reais da Sorveteria Kizar atualizados e no ar.
 
+### 2026-06-04 - Etapa 9: Transição Híbrida B2B/B2C (Tom Inclusivo)
+- **Status:** `[APROVADO]` & `[LOCKED]`
+- **Decisões tomadas:**
+  - Diagnóstico completo dos elementos que transmitiam tom exclusivamente B2B e afastavam o consumidor final.
+  - **Hero:** Headline alterada de "SEJA UM REVENDEDOR KIZAR!" para "KIZAR — O REI DO SABOR" (tom emocional, sobre o produto). Subtítulo de "O sabor que fideliza e o lucro que você precisa" para "Sorvetes, açaí e picolés artesanais direto da fábrica — para a sua mesa ou para o seu negócio."
+  - **CTAs do Hero:** Substituição do botão único "QUERO SER REVENDEDOR AGORA" (WhatsApp) por dois CTAs lado a lado: "QUERO EXPERIMENTAR" (âncora para catálogo, verde primário) + "SOU REVENDEDOR" (âncora para seção de revenda, outline branco).
+  - **Menu de Navegação (desktop + mobile):** "Sabores" → "Nossos Sabores", "Seja Revendedor" → "Revenda".
+  - **Seção Vitrine de Produtos:** Textos de "balcão/caixa" ajustados para linguagem de produto ("Qualidade artesanal em cada sabor. Descubra a linha completa Kizar."). Badge "Solução B2B" → "Cremosidade Pura". "Sua vitrine sempre cheia" → "Para todos os gostos".
+  - **Catálogo:** Badge "Giro Rápido" → "Best-Seller". 17 botões "Quero Revender" → "Quero Experimentar".
+  - **Seção Seja Revendedor:** Badge "Oportunidade Exclusiva" → "Área do Revendedor — Atacado" para rotular claramente a área de parceiros comerciais.
+  - Deploy em produção via Coolify, finalizado com sucesso no commit `8965626cbbefa613f46b59f6447405ac8891ddfd`.
+- **Resultado:** O site agora acolhe tanto o consumidor final quanto o revendedor, com tom emocional centrado no produto e caminhos claros para cada público.
 

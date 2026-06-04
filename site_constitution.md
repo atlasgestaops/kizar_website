@@ -1,6 +1,6 @@
-# Constituição do Site — Sorveteria Kizar (B2B)
+# Constituição do Site — Sorveteria Kizar (Híbrido - B2B + B2C)
 
-Este documento define a lei visual e estrutural imutável para a construção do website B2B da Sorveteria Kizar. Nenhuma alteração estética ou estrutural ad hoc poderá violar estas regras sem atualização prévia deste documento.
+Este documento define a lei visual e estrutural imutável para a construção do website híbrido (focado tanto no consumidor final quanto em parceiros de revenda) da Sorveteria Kizar. Nenhuma alteração estética ou estrutural ad hoc poderá violar estas regras sem atualização prévia deste documento.
 
 ---
 
@@ -68,3 +68,4 @@ A construção do site seguirá rigorosamente a seguinte sequência linear de ap
 - **Convenção de Classes:** Metodologia BEM (ex: `.hero`, `.hero__title`, `.hero__button--active`).
 - **Mobile-First:** A estrutura visual deve ser robusta em telas móveis e se expandir organicamente para desktops.
 - **Isolamento Completo:** Cada seção terá seu próprio arquivo CSS dedicado em `css/components/` para evitar regressões visuais.
+- **Abordagem Híbrida (B2B + B2C):** O tom de escrita geral do site e a exibição de produtos (catálogo) focam na experiência e qualidade artesanal do produto para acolher o consumidor final. A captação B2B de parceiros e lojistas é direcionada cirurgicamente através de CTAs dedicados ("Sou Revendedor"), da tabela de atacado e da seção de revenda demarcada como "Área do Revendedor - Atacado".

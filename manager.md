@@ -27,3 +27,5 @@ Este arquivo registra links de deploy, acessos, domínios e chaves de API necess
 ## 📝 Histórico de Configurações
 - **2026-05-29:** Inicialização do projeto Kizar. Estrutura B2B inicializada.
 - **2026-06-04:** Deploy realizado e homologado no domínio principal da Sorveteria Kizar com catálogo real atualizado.
+- **2026-06-04:** Transição para tom Híbrido (B2B + B2C) implantada e deploy finalizado com sucesso (commit `8965626`).
+
