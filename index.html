@@ -119,8 +119,10 @@
       
       <!-- === NOVO HEADER E HERO B2B (Primeira Dobra Stitch) === -->
       <!-- === SEÇÃO DO HERO & HEADER === -->
-      <section class="relative min-h-[650px] md:min-h-[750px] lg:min-h-[768px] flex flex-col justify-between bg-no-repeat bg-cover bg-center md:bg-[position:center_right] overflow-hidden" 
-               style="background-image: url('assets/kizar-premium-hero-banner.png');">
+      <section class="relative min-h-[650px] md:min-h-[750px] lg:min-h-[768px] flex flex-col justify-between bg-black overflow-hidden group">
+        <!-- Crossfade Backgrounds -->
+        <div id="hero-bg-1" class="absolute inset-0 bg-[url('assets/kizar-premium-hero-banner2.png')] bg-no-repeat bg-cover bg-center md:bg-[position:center_right] transition-opacity duration-[2000ms] ease-in-out opacity-100 z-0"></div>
+        <div id="hero-bg-2" class="absolute inset-0 bg-[url('assets/kizar-premium-hero-banner3.png')] bg-no-repeat bg-cover bg-center md:bg-[position:center_right] transition-opacity duration-[2000ms] ease-in-out opacity-0 z-0"></div>
 
         <!-- === CABEÇALHO (Header) === -->
         <header class="relative w-full z-30 transition-all duration-300">
@@ -1379,22 +1381,21 @@
         }
       });
 
-      const heroSection = document.querySelector('section[style*="kizar-premium-hero-banner.png"]');
-      if (heroSection) {
-        const bgStyle = heroSection.style.backgroundImage;
-        const match = bgStyle.match(/url\(['"]?([^'"]+)['"]?\)/);
-        if (match && match[1]) {
-          const bgUrl = match[1];
-          const testImg = new Image();
-          testImg.onerror = function() {
-            if (bgUrl.startsWith('assets/')) {
-              heroSection.style.backgroundImage = "url('../" + bgUrl + "')";
-            } else if (bgUrl.startsWith('../assets/')) {
-              heroSection.style.backgroundImage = "url('" + bgUrl.replace('../', '') + "')";
-            }
-          };
-          testImg.src = bgUrl;
-        }
+      // === 4. Crossfade do Hero Banner ===
+      const bg1 = document.getElementById('hero-bg-1');
+      const bg2 = document.getElementById('hero-bg-2');
+      if (bg1 && bg2) {
+        let isBg1Active = true;
+        setInterval(() => {
+          if (isBg1Active) {
+            bg1.style.opacity = '0';
+            bg2.style.opacity = '1';
+          } else {
+            bg1.style.opacity = '1';
+            bg2.style.opacity = '0';
+          }
+          isBg1Active = !isBg1Active;
+        }, 5000); // Alterna a cada 5 segundos
       }
     });
   </script>

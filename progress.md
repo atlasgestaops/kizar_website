@@ -149,5 +149,6 @@ Este arquivo registra o log de construção de cada seção, decisões tomadas, 
   - Deploy finalizado no Coolify via commit `fa9f0fb`.
   - **Ajuste:** Altura da seção reduzida em 30-40% via redução de paddings verticais e fontes. Link do CTA atualizado diretamente para URL do Google Meu Negócio. Imagem de capa (lado direito) atualizada de `mix_produtos.jpg` para `localizacao.jpg`. (Deploy final no commit `8b996b3`).
   - **Ajuste:** Botões "Quero Experimentar" de todos os 17 cards de produtos atualizados para direcionar os clientes temporariamente para a seção `#onde-comprar` até definição estratégica futura do negócio.
-- **Resultado:** A loja 1 agora é facilmente encontrada pelo usuário via rota direta ao Maps, entregando comodidade sem perder o perfil premium do site e com visual condizente com a loja. Além disso, o catálogo de produtos passa a direcionar nativamente para visita física na loja.
+  - **Ajuste:** Substituição da imagem estática do banner Hero por um efeito de *crossfade* elegante entre as imagens `kizar-premium-hero-banner2.png` e `kizar-premium-hero-banner3.png`, usando transição CSS via opacidade (sem repintar o DOM) gerida por script temporizado (5 segundos).
+- **Resultado:** A loja 1 agora é facilmente encontrada pelo usuário via rota direta ao Maps, entregando comodidade sem perder o perfil premium do site e com visual condizente com a loja. Além disso, o catálogo de produtos passa a direcionar nativamente para visita física na loja e a primeira impressão visual do site agora apresenta transições dinâmicas de imagens.
 
