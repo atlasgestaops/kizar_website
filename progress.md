@@ -147,4 +147,6 @@ Este arquivo registra o log de construção de cada seção, decisões tomadas, 
   - Inserção de um CTA destacado "ABRIR NO GOOGLE MAPS" que aciona a Universal Link oficial (`https://www.google.com/maps/search/?api=1&query=...`), compatível com aplicativos nativos de iOS/Android e navegadores desktop.
   - Preservado o fluxo B2B logo acima, garantindo fluidez e conversão sem interferências estruturais severas.
   - Deploy finalizado no Coolify via commit `fa9f0fb`.
-- **Resultado:** A loja 1 agora é facilmente encontrada pelo usuário via rota direta ao Maps, entregando comodidade sem perder o perfil premium do site.
+  - **Ajuste:** Altura da seção reduzida em 30-40% via redução de paddings verticais e fontes. Link do CTA atualizado diretamente para URL do Google Meu Negócio. (Deploy final no commit `f501666`).
+- **Resultado:** A loja 1 agora é facilmente encontrada pelo usuário via rota direta ao Maps, entregando comodidade sem perder o perfil premium do site e com espaçamento otimizado.
+
