@@ -148,5 +148,6 @@ Este arquivo registra o log de construção de cada seção, decisões tomadas, 
   - Preservado o fluxo B2B logo acima, garantindo fluidez e conversão sem interferências estruturais severas.
   - Deploy finalizado no Coolify via commit `fa9f0fb`.
   - **Ajuste:** Altura da seção reduzida em 30-40% via redução de paddings verticais e fontes. Link do CTA atualizado diretamente para URL do Google Meu Negócio. Imagem de capa (lado direito) atualizada de `mix_produtos.jpg` para `localizacao.jpg`. (Deploy final no commit `8b996b3`).
-- **Resultado:** A loja 1 agora é facilmente encontrada pelo usuário via rota direta ao Maps, entregando comodidade sem perder o perfil premium do site e com visual condizente com a loja.
+  - **Ajuste:** Botões "Quero Experimentar" de todos os 17 cards de produtos atualizados para direcionar os clientes temporariamente para a seção `#onde-comprar` até definição estratégica futura do negócio.
+- **Resultado:** A loja 1 agora é facilmente encontrada pelo usuário via rota direta ao Maps, entregando comodidade sem perder o perfil premium do site e com visual condizente com a loja. Além disso, o catálogo de produtos passa a direcionar nativamente para visita física na loja.
 
