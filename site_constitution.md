@@ -41,23 +41,23 @@ Este documento define a lei visual e estrutural imutável para a construção do
 ## 🏗️ Arquitetura de Seções (Ordem de Construção)
 A construção do site seguirá rigorosamente a seguinte sequência linear de aprovação:
 
-1. **`[ ]` Cabeçalho (Header / Nav + Logo)**
+1. **`[x]` Cabeçalho (Header / Nav + Logo)**
    - Refazer do zero com foco B2B. Logo Kizar (`kizar-logo.png`), links de navegação rápidos, botão CTA destacado de "Seja um Revendedor".
-2. **`[ ]` Rodapé (Footer)**
+2. **`[x]` Rodapé (Footer)**
    - Refazer do zero. Informações comerciais da fábrica, redes sociais, links legais, catálogo para download (`Catalogo_Produtos_Kizar.pdf`).
-3. **`[ ]` Primeira Dobra (Hero / Capa)**
+3. **`[x]` Primeira Dobra (Hero / Capa)**
    - Refazer do zero com base no apelo B2B de alto padrão. Background marcante (`kizar_hero_bg.png` ou `WhatsApp Video 2026-05-21 at 11.30.39.mp4`), headline de impacto, CTA primário e dados rápidos de margem.
-4. **`[ ]` Nossa História (História Kizar)**
+4. **`[x]` Nossa História (História Kizar)**
    - Seção clássica usando o texto emocional aprovado: "MAIS DE DUAS DÉCADAS DE PAIXÃO E TRADIÇÃO".
-5. **`[ ]` Vitrine Premium de Sorvetes (Produtos)**
+5. **`[x]` Vitrine Premium de Sorvetes (Produtos)**
    - Refazer do zero com altíssimo apelo visual (exibindo potes, copos de açaí, trufadinho 350ml e sabores), focando no catálogo real da Kizar para dar suporte aos clientes atuais do WhatsApp que buscam ver embalagens e novidades para refazer pedidos.
-6. **`[ ]` Tabela de Preços Atacado (Preço Parcial)**
+6. **`[x]` Tabela de Preços Atacado (Preço Parcial)**
    - Layout do Lovable mantido na íntegra: tabela com valores parcialmente ocultos, estimulando o lead a clicar em "DESBLOQUEAR TABELA AGORA" para ser direcionado ao WhatsApp da fábrica.
-7. **`[ ]` Oportunidade Exclusiva & Diferenciais B2B (Gatilhos)**
+7. **`[x]` Oportunidade Exclusiva & Diferenciais B2B (Gatilhos)**
    - Grid de gatilhos persuasivos de lucro: Preço de fábrica, Margem alta (150% a 200%), Frete grátis, Variedade total, Marca reconhecida e Suporte dedicado direto da fábrica.
-8. **`[ ]` Quem Revende, Recomenda (Depoimentos B2B)**
+8. **`[x]` Quem Revende, Recomenda (Depoimentos B2B)**
    - Grid de depoimentos reais de comerciantes e revendedores Kizar.
-9. **`[ ]` Cadastro de Revendedor (Formulário de Lead)**
+9. **`[x]` Cadastro de Revendedor (Formulário de Lead)**
    - Formulário de captura direta para receber o kit do revendedor e tabela de preços em até 48h úteis.
 
 ---

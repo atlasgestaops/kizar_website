@@ -114,3 +114,15 @@ Este arquivo registra o log de construção de cada seção, decisões tomadas, 
   - Correção dos ícones: alterados de classes quebradas/inadequadas para a cor **Creme Dourado** (`text-[#FFF5E0]`), oferecendo contraste harmônico perfeito com o azul escuro.
   - O botão de ação em verde WhatsApp original (`bg-[#25D366]`) foi integralmente preservado conforme a preferência do usuário.
 
+### 2026-06-04 - Etapa 8: Atualização do Catálogo Real e Deploy (Fase 5: Gatilho)
+- **Status:** `[APROVADO]` & `[LOCKED]`
+- **Decisões tomadas:**
+  - Redefinição dos filtros de produtos no catálogo de 5 categorias para apenas 3: "Sorvetes de Massa" (`massa`), "Açaí" (`acai`) e "Picolés" (`picoles`), simplificando a navegação.
+  - Substituição dos produtos antigos da vitrine por 17 itens reais correspondentes às imagens enviadas em `assets/`.
+  - Mapeamento das imagens no filesystem com seus respectivos nomes amigáveis de comercialização no grid.
+  - Preservação integral das formatações cromáticas e classes originais dos cards de produtos a pedido do usuário.
+  - Envio e sincronização dos arquivos atualizados ao repositório GitHub remoto (`atlasgestaops/kizar_website.git`).
+  - Deploy em produção via Coolify na aplicação `ivhgnr422571ftuwm9wgnn7g`, finalizado com sucesso no commit `0443e3a62482456e49d01b6575c9f03b9ac375e5`.
+- **Resultado:** A vitrine está com as fotos e dados de produtos reais da Sorveteria Kizar atualizados e no ar.
+
+
