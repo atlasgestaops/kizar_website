@@ -227,35 +227,36 @@
   font-family: var(--font-body);
   font-size: var(--text-caption);
   font-weight: 700;
-  color: var(--color-accent); /* Vermelho Kizar */
+  color: var(--color-white);
   padding: 10px 20px;
   border-radius: var(--radius-pill);
-  border: 2px solid var(--color-accent);
-  background: transparent;
+  border: 2px solid #005A9E;
+  background: #005A9E;
   transition: var(--transition-fast);
   text-transform: uppercase;
   letter-spacing: 0.05em;
   cursor: pointer;
   width: 100%;
   text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 90, 158, 0.15);
 }
 
 .product-card__btn:hover {
-  background-color: var(--color-accent);
+  background-color: #004578;
   color: var(--color-white);
-  border-color: var(--color-accent);
-  box-shadow: var(--shadow-glow-red);
+  border-color: #004578;
+  box-shadow: 0 6px 20px rgba(0, 90, 158, 0.3);
   transform: translateY(-1px);
 }
 
 .product-card__btn--active {
-  background-color: var(--color-accent);
+  background-color: #005A9E;
   color: var(--color-white);
-  border-color: var(--color-accent);
+  border-color: #005A9E;
 }
 
 .product-card__btn--active:hover {
-  background-color: var(--color-accent-dark);
-  border-color: var(--color-accent-dark);
+  background-color: #004578;
+  border-color: #004578;
   color: var(--color-white);
 }
