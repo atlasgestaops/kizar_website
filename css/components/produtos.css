@@ -56,7 +56,7 @@
 }
 
 .catalog-section__title span {
-  color: #0135FB;
+  color: #005A9E;
 }
 
 /* Filtros de Categoria */
@@ -83,18 +83,18 @@
 }
 
 .catalog-section__filter-btn:hover {
-  border-color: #0135FB !important;
-  background-color: rgba(1, 53, 251, 0.08) !important;
-  box-shadow: 0 0 24px rgba(1, 53, 251, 0.25) !important;
+  border-color: #005A9E !important;
+  background-color: rgba(0, 90, 158, 0.08) !important;
+  box-shadow: 0 0 24px rgba(0, 90, 158, 0.25) !important;
   transform: translateY(-2px);
 }
 
 .catalog-section__filter-btn--active {
-  background-color: #0135FB !important;
+  background-color: #005A9E !important;
   color: var(--color-white) !important;
-  border-color: #0135FB !important;
+  border-color: #005A9E !important;
   font-weight: 700;
-  box-shadow: 0 0 24px rgba(1, 53, 251, 0.25) !important;
+  box-shadow: 0 0 24px rgba(0, 90, 158, 0.25) !important;
 }
 
 /* Grid de Produtos */
